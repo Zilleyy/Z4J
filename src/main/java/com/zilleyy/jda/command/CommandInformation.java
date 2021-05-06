@@ -58,4 +58,5 @@ public class CommandInformation {
     public String[] getArgs() {
         return this.args;
     }
+
 }

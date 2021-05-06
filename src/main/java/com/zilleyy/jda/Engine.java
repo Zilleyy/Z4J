@@ -4,6 +4,7 @@ import com.zilleyy.jda.bridge.RequestHandler;
 import com.zilleyy.jda.console.ConsoleListener;
 import com.zilleyy.jda.console.ConsoleLogger;
 import com.zilleyy.jda.listener.MessageListener;
+import com.zilleyy.jda.task.MessageSenderTask;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import net.dv8tion.jda.api.JDA;
@@ -56,6 +57,8 @@ public class Engine {
             task.onError(error -> error.printStackTrace());
             task.onSuccess(success -> log(success.toString()));
         });
+
+        new MessageSenderTask().start();
     }
 
     public void stop() {

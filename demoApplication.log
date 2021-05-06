@@ -5134,3 +5134,543 @@ Caused by: java.net.SocketException: Connection reset
 [16:43:42] [ERROR]: DNS resolution failed: discord.com
 [16:43:42] [WARN]: Reconnect failed! Next attempt in 900s
 [16:43:50] [DEBUG]: Removed 1 expired buckets
+[12:50:27] [DEBUG]: Received response with following cf-rays: [63e0e851a9d8e9b7-BNE]
+[12:50:27] [DEBUG]: Received response with following cf-rays: [63e0e853ede3e9b7-BNE]
+[12:50:27] [INFO]: Login Successful!
+[12:50:27] [DEBUG]: Creating new worker handle for shard pool 0
+[12:50:27] [DEBUG]: Running worker
+[12:50:27] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:50:29] [INFO]: Connected to WebSocket
+[12:50:29] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:50:29] [DEBUG]: Sending Identify-packet...
+[12:50:29] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:50:29] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109427935}}
+[12:50:29] [DEBUG]: Setting incomplete count to 1
+[12:50:29] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:50:29] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:50:29] [INFO]: Finished Loading!
+[12:50:29] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:50:30] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-5840569822438086614"}
+[12:50:31] [DEBUG]: Received response with following cf-rays: [63e0e86aad34e9b7-BNE]
+[12:50:32] [DEBUG]: Received response with following cf-rays: [63e0e86dcb7632a1-BNE]
+[12:50:32] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:50:32] [DEBUG]: Received response with following cf-rays: [63e0e8716b15e9b7-BNE]
+[12:50:56] [DEBUG]: Removed 6 expired buckets
+[12:51:22] [DEBUG]: Received response with following cf-rays: [63e0e9aa2ff8e9bb-BNE]
+[12:51:23] [DEBUG]: Received response with following cf-rays: [63e0e9ac1bc5e9bb-BNE]
+[12:51:23] [INFO]: Login Successful!
+[12:51:23] [DEBUG]: Creating new worker handle for shard pool 0
+[12:51:23] [DEBUG]: Running worker
+[12:51:23] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:51:24] [INFO]: Connected to WebSocket
+[12:51:24] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:51:24] [DEBUG]: Sending Identify-packet...
+[12:51:24] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:51:24] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109483151}}
+[12:51:24] [DEBUG]: Setting incomplete count to 1
+[12:51:24] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:51:24] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:51:24] [INFO]: Finished Loading!
+[12:51:24] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:51:25] [DEBUG]: Received response with following cf-rays: [63e0e9b9bf58e9bb-BNE]
+[12:51:25] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"5826287105995651852"}
+[12:51:26] [DEBUG]: Received response with following cf-rays: [63e0e9bc1d0a329b-BNE]
+[12:51:27] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:51:27] [DEBUG]: Received response with following cf-rays: [63e0e9c5db67e9bb-BNE]
+[12:51:27] [DEBUG]: Received response with following cf-rays: [63e0e9c92abee9bb-BNE]
+[12:51:28] [DEBUG]: Received response with following cf-rays: [63e0e9cddd61e9bb-BNE]
+[12:51:29] [DEBUG]: Received response with following cf-rays: [63e0e9d1ae62e9bb-BNE]
+[12:51:29] [DEBUG]: Received response with following cf-rays: [63e0e9d5e80de9bb-BNE]
+[12:51:29] [DEBUG]: Backing off 2375 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:51:32] [DEBUG]: Received response with following cf-rays: [63e0e9e839cce9bb-BNE]
+[12:51:33] [DEBUG]: Received response with following cf-rays: [63e0e9eade8ce9bb-BNE]
+[12:51:33] [DEBUG]: Received response with following cf-rays: [63e0e9ee0c50e9bb-BNE]
+[12:51:33] [DEBUG]: Received response with following cf-rays: [63e0e9f0a992e9bb-BNE]
+[12:51:34] [DEBUG]: Received response with following cf-rays: [63e0e9f3af93e9bb-BNE]
+[12:51:34] [DEBUG]: Backing off 3171 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:51:38] [DEBUG]: Received response with following cf-rays: [63e0ea0a5b68e9bb-BNE]
+[12:51:38] [DEBUG]: Received response with following cf-rays: [63e0ea0ce893e9bb-BNE]
+[12:51:38] [DEBUG]: Received response with following cf-rays: [63e0ea0fae58e9bb-BNE]
+[12:51:39] [DEBUG]: Received response with following cf-rays: [63e0ea121b7fe9bb-BNE]
+[12:51:39] [DEBUG]: Received response with following cf-rays: [63e0ea15195be9bb-BNE]
+[12:51:39] [DEBUG]: Backing off 3289 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:51:43] [DEBUG]: Received response with following cf-rays: [63e0ea2c987de9bb-BNE]
+[12:51:44] [DEBUG]: Received response with following cf-rays: [63e0ea2ffe8ae9bb-BNE]
+[12:51:44] [DEBUG]: Received response with following cf-rays: [63e0ea33de78e9bb-BNE]
+[12:51:45] [DEBUG]: Received response with following cf-rays: [63e0ea373d12e9bb-BNE]
+[12:51:45] [DEBUG]: Received response with following cf-rays: [63e0ea3a9bbee9bb-BNE]
+[12:51:45] [DEBUG]: Backing off 2778 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:51:49] [DEBUG]: Received response with following cf-rays: [63e0ea4f7aa2e9bb-BNE]
+[12:51:49] [DEBUG]: Received response with following cf-rays: [63e0ea52584ce9bb-BNE]
+[12:51:51] [DEBUG]: Received response with following cf-rays: [63e0ea5bdcf0e9bb-BNE]
+[12:51:51] [DEBUG]: Removed 5 expired buckets
+[12:51:51] [DEBUG]: Received response with following cf-rays: [63e0ea5fbd7ae9bb-BNE]
+[12:51:52] [DEBUG]: Received response with following cf-rays: [63e0ea63dd95e9bb-BNE]
+[12:51:52] [DEBUG]: Backing off 1719 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:51:54] [DEBUG]: Received response with following cf-rays: [63e0ea72daf6e9bb-BNE]
+[12:51:55] [DEBUG]: Received response with following cf-rays: [63e0ea75b907e9bb-BNE]
+[12:51:56] [DEBUG]: Received response with following cf-rays: [63e0ea79da4be9bb-BNE]
+[12:51:56] [DEBUG]: Received response with following cf-rays: [63e0ea7deb08e9bb-BNE]
+[12:51:57] [DEBUG]: Received response with following cf-rays: [63e0ea813a8fe9bb-BNE]
+[12:51:57] [DEBUG]: Backing off 2692 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636129040597012:webhook_id on route POST/channels/{channel_id}/messages
+[12:52:00] [DEBUG]: Received response with following cf-rays: [63e0ea96acc6e9bb-BNE]
+[12:52:01] [DEBUG]: Received response with following cf-rays: [63e0ea9b3e5ce9bb-BNE]
+[12:52:03] [DEBUG]: Received response with following cf-rays: [63e0eaa72e2fe9bb-BNE]
+[12:52:07] [DEBUG]: Received response with following cf-rays: [63e0eac3aa1ae9bb-BNE]
+[12:52:13] [DEBUG]: Received response with following cf-rays: [63e0eaea7988e9bb-BNE]
+[12:52:16] [DEBUG]: Received response with following cf-rays: [63e0eafb5aa4e9bb-BNE]
+[12:52:19] [DEBUG]: Received response with following cf-rays: [63e0eb0c5c69e9bb-BNE]
+[12:52:21] [DEBUG]: Received response with following cf-rays: [63e0eb176a8ae9bb-BNE]
+[12:52:22] [DEBUG]: Received response with following cf-rays: [63e0eb1f6b13e9bb-BNE]
+[12:52:23] [DEBUG]: Received response with following cf-rays: [63e0eb23dc62e9bb-BNE]
+[12:52:29] [DEBUG]: Received response with following cf-rays: [63e0eb4e9d4fe9bb-BNE]
+[12:52:30] [DEBUG]: Received response with following cf-rays: [63e0eb52ad6ee9bb-BNE]
+[12:52:30] [INFO]: Login Successful!
+[12:52:30] [DEBUG]: Creating new worker handle for shard pool 0
+[12:52:30] [DEBUG]: Running worker
+[12:52:30] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:52:34] [INFO]: Connected to WebSocket
+[12:52:34] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:52:34] [DEBUG]: Sending Identify-packet...
+[12:52:34] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:52:34] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109550605}}
+[12:52:34] [DEBUG]: Setting incomplete count to 1
+[12:52:34] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:52:34] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:52:34] [INFO]: Finished Loading!
+[12:52:34] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:52:35] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"716302571620152386"}
+[12:52:36] [DEBUG]: Received response with following cf-rays: [63e0eb78dba2e9bb-BNE]
+[12:52:37] [DEBUG]: Received response with following cf-rays: [63e0eb7b3f68e9b7-BNE]
+[12:52:37] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:52:37] [DEBUG]: Received response with following cf-rays: [63e0eb7eadd8e9bb-BNE]
+[12:52:57] [DEBUG]: Removed 6 expired buckets
+[12:54:04] [DEBUG]: Received response with following cf-rays: [63e0ed9e993ff27b-BNE]
+[12:54:05] [DEBUG]: Received response with following cf-rays: [63e0eda0ddf7f27b-BNE]
+[12:54:05] [INFO]: Login Successful!
+[12:54:05] [DEBUG]: Creating new worker handle for shard pool 0
+[12:54:05] [DEBUG]: Running worker
+[12:54:05] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:54:11] [INFO]: Connected to WebSocket
+[12:54:11] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:54:11] [DEBUG]: Sending Identify-packet...
+[12:54:11] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:54:11] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109645947}}
+[12:54:11] [DEBUG]: Setting incomplete count to 1
+[12:54:11] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:54:11] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:54:11] [INFO]: Finished Loading!
+[12:54:11] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:54:12] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"9143572824930663674"}
+[12:54:12] [DEBUG]: Received response with following cf-rays: [63e0edce0a6bf27b-BNE]
+[12:54:12] [DEBUG]: Received response with following cf-rays: [63e0edd0ee3e329e-BNE]
+[12:54:13] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:54:13] [DEBUG]: Received response with following cf-rays: [63e0edd4188ff27b-BNE]
+[12:54:13] [DEBUG]: Received response with following cf-rays: [63e0edd72f2bf27b-BNE]
+[12:54:14] [DEBUG]: Received response with following cf-rays: [63e0edda2f35f27b-BNE]
+[12:54:14] [DEBUG]: Received response with following cf-rays: [63e0eddced2df27b-BNE]
+[12:54:15] [DEBUG]: Received response with following cf-rays: [63e0eddfab41f27b-BNE]
+[12:54:15] [DEBUG]: Backing off 3161 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:54:18] [DEBUG]: Received response with following cf-rays: [63e0edf718cdf27b-BNE]
+[12:54:19] [DEBUG]: Received response with following cf-rays: [63e0edfcbdb4f27b-BNE]
+[12:54:20] [DEBUG]: Received response with following cf-rays: [63e0ee009f32f27b-BNE]
+[12:54:21] [DEBUG]: Received response with following cf-rays: [63e0ee072e62f27b-BNE]
+[12:54:22] [DEBUG]: Received response with following cf-rays: [63e0ee0a7e52f27b-BNE]
+[12:54:22] [DEBUG]: Backing off 1904 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:54:24] [DEBUG]: Received response with following cf-rays: [63e0ee1a5a26f27b-BNE]
+[12:54:24] [DEBUG]: Received response with following cf-rays: [63e0ee1d9a39f27b-BNE]
+[12:54:25] [DEBUG]: Received response with following cf-rays: [63e0ee20ea1ff27b-BNE]
+[12:54:26] [DEBUG]: Received response with following cf-rays: [63e0ee2419d0f27b-BNE]
+[12:54:27] [DEBUG]: Received response with following cf-rays: [63e0ee27d962f27b-BNE]
+[12:54:27] [DEBUG]: Backing off 2829 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:54:33] [DEBUG]: Removed 5 expired buckets
+[12:54:34] [DEBUG]: Received response with following cf-rays: [63e0ee452819f27b-BNE]
+[12:54:35] [DEBUG]: Received response with following cf-rays: [63e0ee5c5f1ff27b-BNE]
+[12:54:40] [DEBUG]: Received response with following cf-rays: [63e0ee7fdb2732a5-BNE]
+[12:54:41] [DEBUG]: Received response with following cf-rays: [63e0ee86e94932a5-BNE]
+[12:54:42] [DEBUG]: Received response with following cf-rays: [63e0ee8cee9832a5-BNE]
+[12:54:43] [DEBUG]: Received response with following cf-rays: [63e0ee926bcc32a5-BNE]
+[12:54:44] [DEBUG]: Received response with following cf-rays: [63e0ee982a0432a5-BNE]
+[12:54:44] [DEBUG]: Backing off 1126 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:54:46] [DEBUG]: Received response with following cf-rays: [63e0eea62a7a32a5-BNE]
+[12:54:47] [DEBUG]: Received response with following cf-rays: [63e0eeaa9bcf32a5-BNE]
+[12:54:48] [DEBUG]: Received response with following cf-rays: [63e0eeb0aa6632a5-BNE]
+[12:54:49] [DEBUG]: Received response with following cf-rays: [63e0eeb62df832a5-BNE]
+[12:54:50] [DEBUG]: Received response with following cf-rays: [63e0eebc5c5332a5-BNE]
+[12:54:50] [DEBUG]: Backing off 1441 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:54:52] [DEBUG]: Received response with following cf-rays: [63e0eec9efe532a5-BNE]
+[12:54:57] [DEBUG]: Received response with following cf-rays: [63e0eece691c32a5-BNE]
+[12:54:57] [DEBUG]: Received response with following cf-rays: [63e0eeeaadfb32a5-BNE]
+[12:54:58] [DEBUG]: Received response with following cf-rays: [63e0eeed6cbc32a5-BNE]
+[12:54:58] [DEBUG]: Received response with following cf-rays: [63e0eef15ebd32a5-BNE]
+[12:54:59] [DEBUG]: Received response with following cf-rays: [63e0eef76cb232a5-BNE]
+[12:55:01] [DEBUG]: Received response with following cf-rays: [63e0eefbeec432a5-BNE]
+[12:55:01] [DEBUG]: Backing off 2236 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:04] [DEBUG]: Received response with following cf-rays: [63e0ef1279c032a5-BNE]
+[12:55:04] [DEBUG]: Received response with following cf-rays: [63e0ef16eb7b32a5-BNE]
+[12:55:05] [DEBUG]: Received response with following cf-rays: [63e0ef1b8f3d32a5-BNE]
+[12:55:06] [DEBUG]: Received response with following cf-rays: [63e0ef1ffae932a5-BNE]
+[12:55:06] [DEBUG]: Received response with following cf-rays: [63e0ef241d6a32a5-BNE]
+[12:55:06] [DEBUG]: Backing off 2190 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:10] [DEBUG]: Received response with following cf-rays: [63e0ef36d8b232a5-BNE]
+[12:55:10] [DEBUG]: Received response with following cf-rays: [63e0ef3b5afe32a5-BNE]
+[12:55:11] [DEBUG]: Received response with following cf-rays: [63e0ef41292232a5-BNE]
+[12:55:12] [DEBUG]: Received response with following cf-rays: [63e0ef451a5032a5-BNE]
+[12:55:13] [DEBUG]: Received response with following cf-rays: [63e0ef4aefc532a5-BNE]
+[12:55:13] [DEBUG]: Backing off 1799 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:15] [DEBUG]: Received response with following cf-rays: [63e0ef5c3f5732a5-BNE]
+[12:55:16] [DEBUG]: Received response with following cf-rays: [63e0ef602f6332a5-BNE]
+[12:55:17] [DEBUG]: Received response with following cf-rays: [63e0ef663dc632a5-BNE]
+[12:55:18] [DEBUG]: Received response with following cf-rays: [63e0ef6b19b032a5-BNE]
+[12:55:19] [DEBUG]: Received response with following cf-rays: [63e0ef70ffb432a5-BNE]
+[12:55:19] [DEBUG]: Backing off 1681 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:21] [DEBUG]: Received response with following cf-rays: [63e0ef806abd32a5-BNE]
+[12:55:22] [DEBUG]: Received response with following cf-rays: [63e0ef877ad932a5-BNE]
+[12:55:23] [DEBUG]: Received response with following cf-rays: [63e0ef8d283632a5-BNE]
+[12:55:24] [DEBUG]: Received response with following cf-rays: [63e0ef931e5932a5-BNE]
+[12:55:25] [DEBUG]: Received response with following cf-rays: [63e0ef97d84332a5-BNE]
+[12:55:25] [DEBUG]: Backing off 1285 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:27] [DEBUG]: Received response with following cf-rays: [63e0efa3db8a32a5-BNE]
+[12:55:28] [DEBUG]: Received response with following cf-rays: [63e0efa85d1332a5-BNE]
+[12:55:29] [DEBUG]: Received response with following cf-rays: [63e0efaf3cfe32a5-BNE]
+[12:55:30] [DEBUG]: Received response with following cf-rays: [63e0efb55aed32a5-BNE]
+[12:55:30] [DEBUG]: Received response with following cf-rays: [63e0efba5edb32a5-BNE]
+[12:55:30] [DEBUG]: Backing off 1418 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:33] [DEBUG]: Received response with following cf-rays: [63e0efc89a2132a5-BNE]
+[12:55:33] [DEBUG]: Received response with following cf-rays: [63e0efcc9dcb32a5-BNE]
+[12:55:34] [DEBUG]: Received response with following cf-rays: [63e0efd1fa6632a5-BNE]
+[12:55:35] [DEBUG]: Received response with following cf-rays: [63e0efd5dc1e32a5-BNE]
+[12:55:35] [DEBUG]: Received response with following cf-rays: [63e0efd95bf132a5-BNE]
+[12:55:35] [DEBUG]: Backing off 2319 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:39] [DEBUG]: Received response with following cf-rays: [63e0efecea5232a5-BNE]
+[12:55:39] [DEBUG]: Received response with following cf-rays: [63e0eff22dbb32a5-BNE]
+[12:55:40] [DEBUG]: Received response with following cf-rays: [63e0eff61ef632a5-BNE]
+[12:55:41] [DEBUG]: Received response with following cf-rays: [63e0eff9dfa232a5-BNE]
+[12:55:41] [DEBUG]: Received response with following cf-rays: [63e0effddf5332a5-BNE]
+[12:55:41] [DEBUG]: Backing off 2302 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:44] [DEBUG]: Received response with following cf-rays: [63e0f011a91432a5-BNE]
+[12:55:45] [DEBUG]: Received response with following cf-rays: [63e0f015dc1032a5-BNE]
+[12:55:46] [DEBUG]: Received response with following cf-rays: [63e0f0195c9032a5-BNE]
+[12:55:46] [DEBUG]: Received response with following cf-rays: [63e0f01d7f0e32a5-BNE]
+[12:55:47] [DEBUG]: Received response with following cf-rays: [63e0f021694332a5-BNE]
+[12:55:47] [DEBUG]: Backing off 2475 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:50] [DEBUG]: Received response with following cf-rays: [63e0f03528bf32a5-BNE]
+[12:55:51] [DEBUG]: Received response with following cf-rays: [63e0f038d8ee32a5-BNE]
+[12:55:52] [DEBUG]: Received response with following cf-rays: [63e0f03d9c4832a5-BNE]
+[12:55:52] [DEBUG]: Received response with following cf-rays: [63e0f040ecb632a5-BNE]
+[12:55:53] [DEBUG]: Received response with following cf-rays: [63e0f0439a7a32a5-BNE]
+[12:55:53] [DEBUG]: Backing off 2676 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:55:56] [DEBUG]: Received response with following cf-rays: [63e0f057d98732a5-BNE]
+[12:55:56] [DEBUG]: Received response with following cf-rays: [63e0f05bab6b32a5-BNE]
+[12:55:57] [DEBUG]: Received response with following cf-rays: [63e0f05f9cc932a5-BNE]
+[12:55:57] [DEBUG]: Received response with following cf-rays: [63e0f0629c3a32a5-BNE]
+[12:55:58] [DEBUG]: Received response with following cf-rays: [63e0f0656b1932a5-BNE]
+[12:55:58] [DEBUG]: Backing off 2843 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:01] [DEBUG]: Received response with following cf-rays: [63e0f07abff632a5-BNE]
+[12:56:03] [DEBUG]: Received response with following cf-rays: [63e0f07defe132a5-BNE]
+[12:56:04] [DEBUG]: Received response with following cf-rays: [63e0f08a2dc332a5-BNE]
+[12:56:04] [DEBUG]: Received response with following cf-rays: [63e0f08d7cf132a5-BNE]
+[12:56:05] [DEBUG]: Received response with following cf-rays: [63e0f0916e5332a5-BNE]
+[12:56:05] [DEBUG]: Backing off 1402 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:07] [DEBUG]: Received response with following cf-rays: [63e0f09d6b2332a5-BNE]
+[12:56:08] [DEBUG]: Received response with following cf-rays: [63e0f0a1ac8732a5-BNE]
+[12:56:09] [DEBUG]: Received response with following cf-rays: [63e0f0a7dbab32a5-BNE]
+[12:56:10] [DEBUG]: Received response with following cf-rays: [63e0f0ade95f32a5-BNE]
+[12:56:10] [DEBUG]: Received response with following cf-rays: [63e0f0b0d87032a5-BNE]
+[12:56:10] [DEBUG]: Backing off 1896 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:13] [DEBUG]: Received response with following cf-rays: [63e0f0c07e9532a5-BNE]
+[12:56:13] [DEBUG]: Received response with following cf-rays: [63e0f0c4a92a32a5-BNE]
+[12:56:14] [DEBUG]: Received response with following cf-rays: [63e0f0c7a9b332a5-BNE]
+[12:56:14] [DEBUG]: Received response with following cf-rays: [63e0f0cadafd32a5-BNE]
+[12:56:15] [DEBUG]: Received response with following cf-rays: [63e0f0ce1bcf32a5-BNE]
+[12:56:15] [DEBUG]: Backing off 2808 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:18] [DEBUG]: Received response with following cf-rays: [63e0f0e2e89d32a5-BNE]
+[12:56:19] [DEBUG]: Received response with following cf-rays: [63e0f0e6a9e732a5-BNE]
+[12:56:19] [DEBUG]: Received response with following cf-rays: [63e0f0e9996f32a5-BNE]
+[12:56:20] [DEBUG]: Received response with following cf-rays: [63e0f0edcaa932a5-BNE]
+[12:56:20] [DEBUG]: Received response with following cf-rays: [63e0f0f068da32a5-BNE]
+[12:56:20] [DEBUG]: Backing off 2896 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:24] [DEBUG]: Received response with following cf-rays: [63e0f106a92432a5-BNE]
+[12:56:24] [DEBUG]: Received response with following cf-rays: [63e0f10a8b6532a5-BNE]
+[12:56:25] [DEBUG]: Received response with following cf-rays: [63e0f10d9ab132a5-BNE]
+[12:56:25] [DEBUG]: Received response with following cf-rays: [63e0f110aa2432a5-BNE]
+[12:56:26] [DEBUG]: Received response with following cf-rays: [63e0f1146b3732a5-BNE]
+[12:56:26] [DEBUG]: Backing off 2814 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:29] [DEBUG]: Received response with following cf-rays: [63e0f128fb1b32a5-BNE]
+[12:56:30] [DEBUG]: Received response with following cf-rays: [63e0f12c6b2d32a5-BNE]
+[12:56:30] [DEBUG]: Received response with following cf-rays: [63e0f1302be932a5-BNE]
+[12:56:31] [DEBUG]: Received response with following cf-rays: [63e0f132ea6332a5-BNE]
+[12:56:31] [DEBUG]: Received response with following cf-rays: [63e0f135b8ae32a5-BNE]
+[12:56:31] [DEBUG]: Backing off 2975 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:35] [DEBUG]: Received response with following cf-rays: [63e0f14d3b2932a5-BNE]
+[12:56:36] [DEBUG]: Received response with following cf-rays: [63e0f1508a3732a5-BNE]
+[12:56:36] [DEBUG]: Received response with following cf-rays: [63e0f1535fd632a5-BNE]
+[12:56:36] [DEBUG]: Received response with following cf-rays: [63e0f156e87632a5-BNE]
+[12:56:37] [DEBUG]: Received response with following cf-rays: [63e0f1596dfa32a5-BNE]
+[12:56:37] [DEBUG]: Backing off 3059 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:41] [DEBUG]: Received response with following cf-rays: [63e0f171ee1632a5-BNE]
+[12:56:41] [DEBUG]: Received response with following cf-rays: [63e0f1749e6c32a5-BNE]
+[12:56:42] [DEBUG]: Received response with following cf-rays: [63e0f177adf532a5-BNE]
+[12:56:42] [DEBUG]: Received response with following cf-rays: [63e0f17b9f2d32a5-BNE]
+[12:56:43] [DEBUG]: Received response with following cf-rays: [63e0f180ab7932a5-BNE]
+[12:56:43] [DEBUG]: Backing off 2637 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:46] [DEBUG]: Received response with following cf-rays: [63e0f194a83432a5-BNE]
+[12:56:47] [DEBUG]: Received response with following cf-rays: [63e0f19898fd32a5-BNE]
+[12:56:48] [DEBUG]: Received response with following cf-rays: [63e0f19cda3832a5-BNE]
+[12:56:48] [DEBUG]: Received response with following cf-rays: [63e0f1a0eb8032a5-BNE]
+[12:56:51] [DEBUG]: Received response with following cf-rays: [63e0f1a4ebef32a5-BNE]
+[12:56:51] [DEBUG]: Backing off 2400 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:56:54] [DEBUG]: Received response with following cf-rays: [63e0f1c56dc432a5-BNE]
+[12:56:55] [DEBUG]: Received response with following cf-rays: [63e0f1c9af5c32a5-BNE]
+[12:56:56] [DEBUG]: Received response with following cf-rays: [63e0f1cd582632a5-BNE]
+[12:56:56] [DEBUG]: Received response with following cf-rays: [63e0f1d06f9532a5-BNE]
+[12:56:56] [DEBUG]: Received response with following cf-rays: [63e0f1d35dbb32a5-BNE]
+[12:56:56] [DEBUG]: Backing off 2776 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:00] [DEBUG]: Received response with following cf-rays: [63e0f1e81e0532a5-BNE]
+[12:57:00] [DEBUG]: Received response with following cf-rays: [63e0f1ec2f1832a5-BNE]
+[12:57:01] [DEBUG]: Received response with following cf-rays: [63e0f1ef7e9e32a5-BNE]
+[12:57:02] [DEBUG]: Received response with following cf-rays: [63e0f1f3d82832a5-BNE]
+[12:57:02] [DEBUG]: Received response with following cf-rays: [63e0f1f7982a32a5-BNE]
+[12:57:02] [DEBUG]: Backing off 2586 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:05] [DEBUG]: Received response with following cf-rays: [63e0f20a9c5f32a5-BNE]
+[12:57:06] [DEBUG]: Received response with following cf-rays: [63e0f20f1e2432a5-BNE]
+[12:57:07] [DEBUG]: Received response with following cf-rays: [63e0f212bf2a32a5-BNE]
+[12:57:07] [DEBUG]: Received response with following cf-rays: [63e0f2156dcf32a5-BNE]
+[12:57:08] [DEBUG]: Received response with following cf-rays: [63e0f218dd8e32a5-BNE]
+[12:57:08] [DEBUG]: Backing off 2708 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:11] [DEBUG]: Received response with following cf-rays: [63e0f22cfcb532a5-BNE]
+[12:57:11] [DEBUG]: Received response with following cf-rays: [63e0f2301bf632a5-BNE]
+[12:57:12] [DEBUG]: Received response with following cf-rays: [63e0f23279b932a5-BNE]
+[12:57:13] [DEBUG]: Received response with following cf-rays: [63e0f238aa5332a5-BNE]
+[12:57:13] [DEBUG]: Received response with following cf-rays: [63e0f23bec0032a5-BNE]
+[12:57:13] [DEBUG]: Backing off 2627 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:16] [DEBUG]: Received response with following cf-rays: [63e0f24f38a032a5-BNE]
+[12:57:17] [DEBUG]: Received response with following cf-rays: [63e0f251def132a5-BNE]
+[12:57:17] [DEBUG]: Received response with following cf-rays: [63e0f2559fd832a5-BNE]
+[12:57:18] [DEBUG]: Received response with following cf-rays: [63e0f259a93932a5-BNE]
+[12:57:18] [DEBUG]: Received response with following cf-rays: [63e0f25d29db32a5-BNE]
+[12:57:18] [DEBUG]: Backing off 2779 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:22] [DEBUG]: Received response with following cf-rays: [63e0f27129b232a5-BNE]
+[12:57:22] [DEBUG]: Received response with following cf-rays: [63e0f273bfe232a5-BNE]
+[12:57:22] [DEBUG]: Received response with following cf-rays: [63e0f2762daa32a5-BNE]
+[12:57:23] [DEBUG]: Received response with following cf-rays: [63e0f279ee0832a5-BNE]
+[12:57:24] [DEBUG]: Received response with following cf-rays: [63e0f27ed97732a5-BNE]
+[12:57:24] [DEBUG]: Backing off 2786 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:27] [DEBUG]: Received response with following cf-rays: [63e0f293e9c732a5-BNE]
+[12:57:28] [DEBUG]: Received response with following cf-rays: [63e0f2967ee132a5-BNE]
+[12:57:28] [DEBUG]: Received response with following cf-rays: [63e0f299bef532a5-BNE]
+[12:57:29] [DEBUG]: Received response with following cf-rays: [63e0f29df8aa32a5-BNE]
+[12:57:30] [DEBUG]: Received response with following cf-rays: [63e0f2a168e432a5-BNE]
+[12:57:30] [DEBUG]: Backing off 2852 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830636830273437746:webhook_id on route POST/channels/{channel_id}/messages
+[12:57:34] [DEBUG]: Received response with following cf-rays: [63e0f2c27b0b32a0-BNE]
+[12:57:35] [DEBUG]: Received response with following cf-rays: [63e0f2c49f4732a0-BNE]
+[12:57:35] [INFO]: Login Successful!
+[12:57:35] [DEBUG]: Creating new worker handle for shard pool 0
+[12:57:35] [DEBUG]: Running worker
+[12:57:35] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:57:36] [INFO]: Connected to WebSocket
+[12:57:36] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:57:36] [DEBUG]: Sending Identify-packet...
+[12:57:36] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:57:37] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109855584}}
+[12:57:37] [DEBUG]: Setting incomplete count to 1
+[12:57:37] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:57:37] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:57:37] [INFO]: Finished Loading!
+[12:57:37] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:57:37] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"6288787550473880678"}
+[12:57:38] [DEBUG]: Received response with following cf-rays: [63e0f2d6ba5632a0-BNE]
+[12:57:38] [DEBUG]: Received response with following cf-rays: [63e0f2d85a89e9bb-BNE]
+[12:57:39] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:57:39] [DEBUG]: Received response with following cf-rays: [63e0f2dbde5e32a0-BNE]
+[12:58:04] [DEBUG]: Removed 6 expired buckets
+[12:58:24] [DEBUG]: Received response with following cf-rays: [63e0f3f7185032a1-BNE]
+[12:58:24] [DEBUG]: Received response with following cf-rays: [63e0f3f91c8932a1-BNE]
+[12:58:24] [INFO]: Login Successful!
+[12:58:24] [DEBUG]: Creating new worker handle for shard pool 0
+[12:58:24] [DEBUG]: Running worker
+[12:58:24] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:58:25] [INFO]: Connected to WebSocket
+[12:58:25] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:58:25] [DEBUG]: Sending Identify-packet...
+[12:58:25] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:58:25] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618109904876}}
+[12:58:26] [DEBUG]: Setting incomplete count to 1
+[12:58:26] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:58:26] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:58:26] [INFO]: Finished Loading!
+[12:58:26] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:58:26] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-354046878559931670"}
+[12:58:26] [DEBUG]: Received response with following cf-rays: [63e0f4046db432a1-BNE]
+[12:58:27] [DEBUG]: Received response with following cf-rays: [63e0f406682632a4-BNE]
+[12:58:28] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:58:28] [DEBUG]: Received response with following cf-rays: [63e0f409995332a1-BNE]
+[12:58:28] [DEBUG]: Received response with following cf-rays: [63e0f411ac3932a1-BNE]
+[12:58:29] [DEBUG]: Received response with following cf-rays: [63e0f4145b7c32a1-BNE]
+[12:58:29] [DEBUG]: Received response with following cf-rays: [63e0f417db1d32a1-BNE]
+[12:58:30] [DEBUG]: Received response with following cf-rays: [63e0f41aa99932a1-BNE]
+[12:58:30] [DEBUG]: Backing off 2786 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:58:33] [DEBUG]: Received response with following cf-rays: [63e0f42ed82b32a1-BNE]
+[12:58:34] [DEBUG]: Received response with following cf-rays: [63e0f431dfc132a1-BNE]
+[12:58:34] [DEBUG]: Received response with following cf-rays: [63e0f434ddef32a1-BNE]
+[12:58:35] [DEBUG]: Received response with following cf-rays: [63e0f4381d8532a1-BNE]
+[12:58:35] [DEBUG]: Received response with following cf-rays: [63e0f43b3cfe32a1-BNE]
+[12:58:35] [DEBUG]: Backing off 3025 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:58:38] [DEBUG]: Received response with following cf-rays: [63e0f450d80432a1-BNE]
+[12:58:39] [DEBUG]: Received response with following cf-rays: [63e0f453ae8d32a1-BNE]
+[12:58:40] [DEBUG]: Received response with following cf-rays: [63e0f457df9632a1-BNE]
+[12:58:40] [DEBUG]: Received response with following cf-rays: [63e0f45a3d8c32a1-BNE]
+[12:58:40] [DEBUG]: Received response with following cf-rays: [63e0f45cebee32a1-BNE]
+[12:58:40] [DEBUG]: Backing off 3074 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:58:44] [DEBUG]: Received response with following cf-rays: [63e0f472ef7832a1-BNE]
+[12:58:44] [DEBUG]: Received response with following cf-rays: [63e0f475be4032a1-BNE]
+[12:58:45] [DEBUG]: Received response with following cf-rays: [63e0f4783c0832a1-BNE]
+[12:58:45] [DEBUG]: Received response with following cf-rays: [63e0f47b19f432a1-BNE]
+[12:58:46] [DEBUG]: Received response with following cf-rays: [63e0f47da91f32a1-BNE]
+[12:58:46] [DEBUG]: Backing off 3279 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:58:49] [DEBUG]: Received response with following cf-rays: [63e0f494a9ad32a1-BNE]
+[12:58:50] [DEBUG]: Received response with following cf-rays: [63e0f497a87c32a1-BNE]
+[12:58:51] [DEBUG]: Received response with following cf-rays: [63e0f49beafa32a1-BNE]
+[12:58:51] [DEBUG]: Received response with following cf-rays: [63e0f49ffbe932a1-BNE]
+[12:58:52] [DEBUG]: Received response with following cf-rays: [63e0f4a45ed532a1-BNE]
+[12:58:52] [DEBUG]: Backing off 2480 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:58:53] [DEBUG]: Removed 5 expired buckets
+[12:58:55] [DEBUG]: Received response with following cf-rays: [63e0f4b6ad5f32a1-BNE]
+[12:58:55] [DEBUG]: Received response with following cf-rays: [63e0f4b9fd0432a1-BNE]
+[12:58:56] [DEBUG]: Received response with following cf-rays: [63e0f4bdddcc32a1-BNE]
+[12:58:56] [DEBUG]: Received response with following cf-rays: [63e0f4c09c5732a1-BNE]
+[12:58:57] [DEBUG]: Received response with following cf-rays: [63e0f4c32a3f32a1-BNE]
+[12:58:57] [DEBUG]: Backing off 3013 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:00] [DEBUG]: Received response with following cf-rays: [63e0f4da4a9332a1-BNE]
+[12:59:01] [DEBUG]: Received response with following cf-rays: [63e0f4dd288e32a1-BNE]
+[12:59:01] [DEBUG]: Received response with following cf-rays: [63e0f4e0a8bb32a1-BNE]
+[12:59:02] [DEBUG]: Received response with following cf-rays: [63e0f4e3af5d32a1-BNE]
+[12:59:03] [DEBUG]: Received response with following cf-rays: [63e0f4e7e8ff32a1-BNE]
+[12:59:03] [DEBUG]: Backing off 2815 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:06] [DEBUG]: Received response with following cf-rays: [63e0f4fdf8e532a1-BNE]
+[12:59:07] [DEBUG]: Received response with following cf-rays: [63e0f5021a6532a1-BNE]
+[12:59:07] [DEBUG]: Received response with following cf-rays: [63e0f50518b932a1-BNE]
+[12:59:08] [DEBUG]: Received response with following cf-rays: [63e0f50a4d0c32a1-BNE]
+[12:59:09] [DEBUG]: Received response with following cf-rays: [63e0f50fa9a432a1-BNE]
+[12:59:09] [DEBUG]: Backing off 2178 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:12] [DEBUG]: Received response with following cf-rays: [63e0f5219a6032a1-BNE]
+[12:59:13] [DEBUG]: Received response with following cf-rays: [63e0f5265dcc32a1-BNE]
+[12:59:14] [DEBUG]: Received response with following cf-rays: [63e0f52bfa6b32a1-BNE]
+[12:59:14] [DEBUG]: Received response with following cf-rays: [63e0f52feb0232a1-BNE]
+[12:59:15] [DEBUG]: Received response with following cf-rays: [63e0f5339af732a1-BNE]
+[12:59:15] [DEBUG]: Backing off 2138 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:18] [DEBUG]: Received response with following cf-rays: [63e0f5469cb232a1-BNE]
+[12:59:18] [DEBUG]: Received response with following cf-rays: [63e0f54abd3f32a1-BNE]
+[12:59:19] [DEBUG]: Received response with following cf-rays: [63e0f54eedd032a1-BNE]
+[12:59:20] [DEBUG]: Received response with following cf-rays: [63e0f553681132a1-BNE]
+[12:59:21] [DEBUG]: Received response with following cf-rays: [63e0f557a9df32a1-BNE]
+[12:59:21] [DEBUG]: Backing off 2268 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:24] [DEBUG]: Received response with following cf-rays: [63e0f56aeefc32a1-BNE]
+[12:59:24] [DEBUG]: Received response with following cf-rays: [63e0f56e6fc532a1-BNE]
+[12:59:25] [DEBUG]: Received response with following cf-rays: [63e0f572ba4c32a1-BNE]
+[12:59:26] [DEBUG]: Received response with following cf-rays: [63e0f5789f0032a1-BNE]
+[12:59:27] [DEBUG]: Received response with following cf-rays: [63e0f57e6da032a1-BNE]
+[12:59:27] [DEBUG]: Backing off 1840 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:29] [DEBUG]: Received response with following cf-rays: [63e0f58f29ea32a1-BNE]
+[12:59:30] [DEBUG]: Received response with following cf-rays: [63e0f593abab32a1-BNE]
+[12:59:31] [DEBUG]: Received response with following cf-rays: [63e0f597dc8732a1-BNE]
+[12:59:32] [DEBUG]: Received response with following cf-rays: [63e0f59c1e9c32a1-BNE]
+[12:59:32] [DEBUG]: Received response with following cf-rays: [63e0f5a21cd232a1-BNE]
+[12:59:32] [DEBUG]: Backing off 1974 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:35] [DEBUG]: Received response with following cf-rays: [63e0f5b3bc7b32a1-BNE]
+[12:59:37] [DEBUG]: Received response with following cf-rays: [63e0f5b9283732a1-BNE]
+[12:59:38] [DEBUG]: Received response with following cf-rays: [63e0f5c1be2f32a1-BNE]
+[12:59:38] [DEBUG]: Received response with following cf-rays: [63e0f5c66c1332a1-BNE]
+[12:59:39] [DEBUG]: Received response with following cf-rays: [63e0f5ca5f4032a1-BNE]
+[12:59:39] [DEBUG]: Backing off 1377 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:41] [DEBUG]: Received response with following cf-rays: [63e0f5d88e0432a1-BNE]
+[12:59:42] [DEBUG]: Received response with following cf-rays: [63e0f5de2c0132a1-BNE]
+[12:59:43] [DEBUG]: Received response with following cf-rays: [63e0f5e2e93832a1-BNE]
+[12:59:44] [DEBUG]: Received response with following cf-rays: [63e0f5e8e99332a1-BNE]
+[12:59:45] [DEBUG]: Received response with following cf-rays: [63e0f5f05ef032a1-BNE]
+[12:59:45] [DEBUG]: Backing off 1165 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[12:59:48] [DEBUG]: Received response with following cf-rays: [63e0f604b90b32a1-BNE]
+[12:59:55] [DEBUG]: Received response with following cf-rays: [63e0f631597232a1-BNE]
+[13:00:02] [DEBUG]: Received response with following cf-rays: [63e0f65dac7832a1-BNE]
+[13:00:09] [DEBUG]: Received response with following cf-rays: [63e0f6845e2932a1-BNE]
+[13:00:13] [DEBUG]: Received response with following cf-rays: [63e0f6a31bd332a1-BNE]
+[13:00:16] [DEBUG]: Received response with following cf-rays: [63e0f6b0bdd632a1-BNE]
+[13:00:16] [DEBUG]: Received response with following cf-rays: [63e0f6b528d732a1-BNE]
+[13:00:17] [DEBUG]: Received response with following cf-rays: [63e0f6bb487032a1-BNE]
+[13:00:18] [DEBUG]: Received response with following cf-rays: [63e0f6bf1a8a32a1-BNE]
+[13:00:19] [DEBUG]: Received response with following cf-rays: [63e0f6c4af4032a1-BNE]
+[13:00:19] [DEBUG]: Backing off 1838 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[13:00:22] [DEBUG]: Received response with following cf-rays: [63e0f6d5a8d032a1-BNE]
+[13:00:23] [DEBUG]: Received response with following cf-rays: [63e0f6dc19e932a1-BNE]
+[13:00:23] [DEBUG]: Received response with following cf-rays: [63e0f6e0ade732a1-BNE]
+[13:00:24] [DEBUG]: Received response with following cf-rays: [63e0f6e56a4932a1-BNE]
+[13:00:25] [DEBUG]: Received response with following cf-rays: [63e0f6ea586632a1-BNE]
+[13:00:25] [DEBUG]: Backing off 1704 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[13:00:27] [DEBUG]: Received response with following cf-rays: [63e0f6faac8d32a1-BNE]
+[13:00:28] [DEBUG]: Received response with following cf-rays: [63e0f6ffa87c32a1-BNE]
+[13:00:29] [DEBUG]: Received response with following cf-rays: [63e0f7041c1032a1-BNE]
+[13:00:30] [DEBUG]: Received response with following cf-rays: [63e0f708f83332a1-BNE]
+[13:00:30] [DEBUG]: Received response with following cf-rays: [63e0f70ca9de32a1-BNE]
+[13:00:30] [DEBUG]: Backing off 2113 ms for bucket a06de0de4a08126315431cc0c55ee3dc:guild_id:830637896863055883:webhook_id on route POST/channels/{channel_id}/messages
+[13:00:35] [DEBUG]: Received response with following cf-rays: [63e0f72aea2932a1-BNE]
+[13:00:37] [DEBUG]: Received response with following cf-rays: [63e0f7383eb432a1-BNE]
+[13:00:42] [DEBUG]: Received response with following cf-rays: [63e0f7572cfd32a1-BNE]
+[13:00:52] [DEBUG]: Received response with following cf-rays: [63e0f7979e8e32a0-BNE]
+[13:00:54] [DEBUG]: Received response with following cf-rays: [63e0f79f9a7532a0-BNE]
+[13:00:54] [INFO]: Login Successful!
+[13:00:54] [DEBUG]: Creating new worker handle for shard pool 0
+[13:00:54] [DEBUG]: Running worker
+[13:00:54] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:00:59] [INFO]: Connected to WebSocket
+[13:00:59] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:00:59] [DEBUG]: Sending Identify-packet...
+[13:00:59] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:00:59] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1618110054433}}
+[13:01:00] [DEBUG]: Setting incomplete count to 1
+[13:01:00] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:01:00] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:01:00] [INFO]: Finished Loading!
+[13:01:00] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:01:00] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-1299692088817046610"}
+[13:01:02] [DEBUG]: Received response with following cf-rays: [63e0f7d16f4a32a0-BNE]
+[13:01:04] [DEBUG]: Received response with following cf-rays: [63e0f7de7dd3329a-BNE]
+[13:01:05] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:01:05] [DEBUG]: Received response with following cf-rays: [63e0f7e72b6332a0-BNE]
+[13:01:18] [DEBUG]: Removed 6 expired buckets
+[13:01:24] [DEBUG]: Received response with following cf-rays: [63e0f85ac8aaf27f-BNE]
+[13:01:46] [DEBUG]: Received response with following cf-rays: [63e0f8e3e9d4329b-BNE]
+[13:02:18] [DEBUG]: Removed 1 expired buckets
+[13:05:17] [DEBUG]: Socket timed out
+[13:05:17] [DEBUG]: Got disconnected from WebSocket (Code: 1008). Attempting to resume session
+[13:05:17] [DEBUG]: Attempting to reconnect in 0s
+[13:05:17] [DEBUG]: Attempting to reconnect!
+[13:05:17] [WARN]: Reconnect failed! Next attempt in 2s
+[13:05:19] [DEBUG]: Attempting to reconnect!
+[13:05:19] [ERROR]: DNS resolution failed: discord.com
+[13:05:19] [WARN]: Reconnect failed! Next attempt in 4s
+[13:05:23] [DEBUG]: Attempting to reconnect!
+[13:05:23] [ERROR]: DNS resolution failed: discord.com
+[13:05:23] [WARN]: Reconnect failed! Next attempt in 8s
+[13:05:31] [DEBUG]: Attempting to reconnect!
+[13:05:31] [ERROR]: DNS resolution failed: discord.com
+[13:05:31] [WARN]: Reconnect failed! Next attempt in 16s
+[13:05:47] [DEBUG]: Attempting to reconnect!
+[13:05:47] [ERROR]: DNS resolution failed: discord.com
+[13:05:47] [WARN]: Reconnect failed! Next attempt in 32s
+[13:05:48] [DEBUG]: Removed 1 expired buckets
+[13:06:19] [DEBUG]: Attempting to reconnect!
+[13:06:19] [ERROR]: DNS resolution failed: discord.com
+[13:06:19] [WARN]: Reconnect failed! Next attempt in 64s
+[13:06:48] [DEBUG]: Removed 1 expired buckets
+[13:07:23] [DEBUG]: Attempting to reconnect!
+[13:07:23] [ERROR]: DNS resolution failed: discord.com
+[13:07:23] [WARN]: Reconnect failed! Next attempt in 128s
+[13:07:48] [DEBUG]: Removed 1 expired buckets
+[13:09:31] [DEBUG]: Attempting to reconnect!
+[13:09:31] [ERROR]: DNS resolution failed: discord.com
+[13:09:31] [WARN]: Reconnect failed! Next attempt in 256s
+[13:09:48] [DEBUG]: Removed 1 expired buckets
+[13:13:47] [DEBUG]: Attempting to reconnect!
+[13:13:47] [ERROR]: DNS resolution failed: discord.com
+[13:13:47] [WARN]: Reconnect failed! Next attempt in 512s
+[13:13:48] [DEBUG]: Removed 1 expired buckets
