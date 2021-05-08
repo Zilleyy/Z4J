@@ -44,9 +44,10 @@ public class MessageListener extends ListenerAdapter {
                 } catch(Exception exception) {
                     ConsoleLogger.error(exception);
                 }
+
                 // Check if the command execution was successful, if it was then return.
                 if(status.getBaseStatus() != ExecutionStatus.GENERIC_FAILURE) return;
-                else message.reply("An unhandled error occurred - " + status + ":" + status.ordinal()).queue();
+                else CommandManager.handle(message, status);
             } else message.reply("You cannot use this command here...");
         } else event.getMessage().reply("Unknown command, type /help.").queue();
     }

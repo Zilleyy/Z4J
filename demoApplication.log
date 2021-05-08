@@ -5674,3 +5674,1789 @@ Caused by: java.net.SocketException: Connection reset
 [13:13:47] [ERROR]: DNS resolution failed: discord.com
 [13:13:47] [WARN]: Reconnect failed! Next attempt in 512s
 [13:13:48] [DEBUG]: Removed 1 expired buckets
+[11:56:15] [DEBUG]: Received response with following cf-rays: [64ae9725ee1816c1-SYD]
+[11:56:15] [DEBUG]: Received response with following cf-rays: [64ae9727591116c1-SYD]
+[11:56:15] [INFO]: Login Successful!
+[11:56:15] [DEBUG]: Creating new worker handle for shard pool 0
+[11:56:15] [DEBUG]: Running worker
+[11:56:15] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[11:56:16] [INFO]: Connected to WebSocket
+[11:56:16] [DEBUG]: Connected with gateway intents: 11011011001111
+[11:56:16] [DEBUG]: Sending Identify-packet...
+[11:56:16] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[11:56:16] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266175894}}
+[11:56:16] [DEBUG]: Setting incomplete count to 1
+[11:56:16] [DEBUG]: Starting 75 second timeout for 1 guilds
+[11:56:16] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[11:56:16] [INFO]: Finished Loading!
+[11:56:16] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[11:56:16] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"4645967612681520282"}
+[11:56:17] [DEBUG]: Received response with following cf-rays: [64ae97317c1ad699-SYD]
+[11:56:17] [DEBUG]: Received response with following cf-rays: [64ae9731487916c1-SYD]
+[11:56:17] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[11:56:17] [DEBUG]: Received response with following cf-rays: [64ae97337cb516c1-SYD]
+[11:56:45] [DEBUG]: Removed 6 expired buckets
+[11:56:58] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[11:56:58] [DEBUG]: Received response with following cf-rays: [64ae98342c0f16bd-SYD]
+[11:56:58] [DEBUG]: Received response with following cf-rays: [64ae98342cc1fe60-SYD]
+[11:56:58] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[11:56:59] [INFO]: Reflections took 152 ms to scan 1 urls, producing 5 keys and 15 values 
+[11:56:59] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[11:56:59] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[11:56:59] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[11:56:59] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[11:56:59] [DEBUG]: Received response with following cf-rays: [64ae983718e6fe60-SYD]
+[11:56:59] [DEBUG]: Received response with following cf-rays: [64ae9838fbbdfe60-SYD]
+[11:56:59] [DEBUG]: Received response with following cf-rays: [64ae983abe8ffe60-SYD]
+[11:57:00] [DEBUG]: Received response with following cf-rays: [64ae983c997dfe60-SYD]
+[11:57:04] [DEBUG]: Received response with following cf-rays: [64ae98554a4ffe60-SYD]
+[11:57:04] [DEBUG]: Received response with following cf-rays: [64ae98579d98fe60-SYD]
+[11:57:04] [DEBUG]: Received response with following cf-rays: [64ae98594fa0fe60-SYD]
+[11:57:05] [DEBUG]: Received response with following cf-rays: [64ae985afa1efe60-SYD]
+[11:57:05] [DEBUG]: Caching bucket hash GET/channels/{channel_id}/messages -> fccc1d589e71dd6f0c55fde9faa2838d
+[11:57:05] [DEBUG]: Received response with following cf-rays: [64ae985cbd3416bd-SYD]
+[11:57:05] [ERROR]: One of the EventListeners had an uncaught exception
+java.lang.IllegalArgumentException: Description cannot be longer than 2048 characters.
+	at net.dv8tion.jda.internal.utils.Checks.check(Checks.java:57)
+	at net.dv8tion.jda.api.EmbedBuilder.appendDescription(EmbedBuilder.java:364)
+	at net.dv8tion.jda.api.EmbedBuilder.setDescription(EmbedBuilder.java:340)
+	at com.zilleyy.jda.console.ConsoleLogger.error(ConsoleLogger.java:85)
+	at com.zilleyy.jda.listener.MessageListener.onMessageReceived(MessageListener.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:149)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:956)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:843)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:821)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:994)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[11:57:05] [DEBUG]: Received response with following cf-rays: [64ae985cbcd8fe60-SYD]
+[11:57:05] [DEBUG]: Received response with following cf-rays: [64ae985e381516bd-SYD]
+[11:57:15] [DEBUG]: Removed 5 expired buckets
+[11:57:51] [DEBUG]: Received response with following cf-rays: [64ae9979dad216d1-SYD]
+[11:57:51] [DEBUG]: Received response with following cf-rays: [64ae9979da6162d8-SYD]
+[11:57:55] [DEBUG]: Received response with following cf-rays: [64ae99937cdb62d8-SYD]
+[11:58:15] [DEBUG]: Removed 2 expired buckets
+[11:58:50] [DEBUG]: WebSocket connection closed with code CloseCode(4003 / You sent a payload prior to identifying.)
+[11:58:50] [DEBUG]: Got disconnected from WebSocket (Code: 4003). Attempting to resume session
+[11:58:50] [DEBUG]: Attempting to reconnect in 0s
+[11:58:50] [DEBUG]: Attempting to reconnect!
+[11:58:50] [DEBUG]: Connected to WebSocket
+[11:58:50] [DEBUG]: Sending Resume-packet...
+[11:58:50] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[11:58:51] [DEBUG]: Got Invalidate request (OP 9). Invalidating...
+[11:58:51] [WARN]: Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[11:58:51] [DEBUG]: Running worker
+[11:58:51] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[11:58:51] [DEBUG]: Queue is attempting to reconnect a shard... Shard: [0 / 1] Attempting to reconnect in 2s
+[11:58:53] [DEBUG]: Attempting to reconnect!
+[11:58:53] [INFO]: Connected to WebSocket
+[11:58:53] [DEBUG]: Connected with gateway intents: 11011011001111
+[11:58:53] [DEBUG]: Sending Identify-packet...
+[11:58:53] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[11:58:53] [DEBUG]: WebSocket connection closed with code CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[11:58:53] [ERROR]: WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[11:58:53] [DEBUG]: Shutdown while trying to reconnect
+[12:01:25] [DEBUG]: Received response with following cf-rays: [64ae9eb539e8da46-SYD]
+[12:01:25] [DEBUG]: Received response with following cf-rays: [64ae9eb68bd6da46-SYD]
+[12:01:25] [INFO]: Login Successful!
+[12:01:25] [DEBUG]: Creating new worker handle for shard pool 0
+[12:01:25] [DEBUG]: Running worker
+[12:01:25] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:01:25] [INFO]: Connected to WebSocket
+[12:01:25] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:01:25] [DEBUG]: Sending Identify-packet...
+[12:01:25] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:01:26] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266485521}}
+[12:01:26] [DEBUG]: Setting incomplete count to 1
+[12:01:26] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:01:26] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:01:26] [INFO]: Finished Loading!
+[12:01:26] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:01:26] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"5068194615436304854"}
+[12:01:27] [DEBUG]: Received response with following cf-rays: [64ae9ec09b2dda46-SYD]
+[12:01:27] [DEBUG]: Received response with following cf-rays: [64ae9ec0beebd699-SYD]
+[12:01:27] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:01:27] [DEBUG]: Received response with following cf-rays: [64ae9ec2be83da46-SYD]
+[12:01:54] [DEBUG]: Removed 6 expired buckets
+[12:02:02] [DEBUG]: Received response with following cf-rays: [64ae9f9edb8e16c9-SYD]
+[12:02:02] [DEBUG]: Received response with following cf-rays: [64ae9fa00e3916c9-SYD]
+[12:02:02] [INFO]: Login Successful!
+[12:02:02] [DEBUG]: Creating new worker handle for shard pool 0
+[12:02:02] [DEBUG]: Running worker
+[12:02:02] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:02:03] [INFO]: Connected to WebSocket
+[12:02:03] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:02:03] [DEBUG]: Sending Identify-packet...
+[12:02:03] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:02:03] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266522879}}
+[12:02:03] [DEBUG]: Setting incomplete count to 1
+[12:02:03] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:02:03] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:02:03] [INFO]: Finished Loading!
+[12:02:03] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:02:03] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-8405607499467097082"}
+[12:02:04] [DEBUG]: Received response with following cf-rays: [64ae9fa9daf816c9-SYD]
+[12:02:04] [DEBUG]: Received response with following cf-rays: [64ae9fa9f9e062df-SYD]
+[12:02:04] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:02:04] [DEBUG]: Received response with following cf-rays: [64ae9fabffad16c9-SYD]
+[12:02:21] [DEBUG]: Received response with following cf-rays: [64aea0190826fd32-SYD]
+[12:02:22] [DEBUG]: Received response with following cf-rays: [64aea01a3a55fd32-SYD]
+[12:02:22] [INFO]: Login Successful!
+[12:02:22] [DEBUG]: Creating new worker handle for shard pool 0
+[12:02:22] [DEBUG]: Running worker
+[12:02:22] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:02:22] [INFO]: Connected to WebSocket
+[12:02:22] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:02:22] [DEBUG]: Sending Identify-packet...
+[12:02:22] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:02:22] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266542396}}
+[12:02:22] [DEBUG]: Setting incomplete count to 1
+[12:02:22] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:02:23] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:02:23] [INFO]: Finished Loading!
+[12:02:23] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:02:23] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"2885863005721614990"}
+[12:02:23] [DEBUG]: Received response with following cf-rays: [64aea023eb4cfd32-SYD]
+[12:02:24] [DEBUG]: Received response with following cf-rays: [64aea024090c16a9-SYD]
+[12:02:24] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:02:24] [DEBUG]: Received response with following cf-rays: [64aea0261f7cfd32-SYD]
+[12:02:51] [DEBUG]: Removed 6 expired buckets
+[12:02:52] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[12:02:52] [DEBUG]: Received response with following cf-rays: [64aea0d75e54fd4a-SYD]
+[12:02:52] [DEBUG]: Received response with following cf-rays: [64aea0d75d7e16b5-SYD]
+[12:02:52] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:02:52] [INFO]: Reflections took 69 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:02:52] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:02:52] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:02:52] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:02:52] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:02:53] [DEBUG]: Received response with following cf-rays: [64aea0da0a75fd4a-SYD]
+[12:02:53] [DEBUG]: Received response with following cf-rays: [64aea0dc1d9efd4a-SYD]
+[12:02:53] [DEBUG]: Received response with following cf-rays: [64aea0dda828fd4a-SYD]
+[12:02:53] [DEBUG]: Received response with following cf-rays: [64aea0df6a94fd4a-SYD]
+[12:02:58] [DEBUG]: Received response with following cf-rays: [64aea0f8783ffd4a-SYD]
+[12:02:58] [DEBUG]: Received response with following cf-rays: [64aea0fa8c4cfd4a-SYD]
+[12:02:58] [DEBUG]: Received response with following cf-rays: [64aea0fcf8affd4a-SYD]
+[12:02:58] [DEBUG]: Received response with following cf-rays: [64aea0feabddfd4a-SYD]
+[12:02:59] [DEBUG]: Received response with following cf-rays: [64aea100bf5dfd4a-SYD]
+[12:03:21] [DEBUG]: Removed 3 expired buckets
+[12:03:29] [DEBUG]: Received response with following cf-rays: [64aea1bf0fc862f0-SYD]
+[12:03:29] [DEBUG]: Received response with following cf-rays: [64aea1c019f562f0-SYD]
+[12:03:29] [INFO]: Login Successful!
+[12:03:29] [DEBUG]: Creating new worker handle for shard pool 0
+[12:03:29] [DEBUG]: Running worker
+[12:03:29] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:03:30] [INFO]: Connected to WebSocket
+[12:03:30] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:03:30] [DEBUG]: Sending Identify-packet...
+[12:03:30] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:03:30] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266609933}}
+[12:03:30] [DEBUG]: Setting incomplete count to 1
+[12:03:30] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:03:30] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:03:30] [INFO]: Finished Loading!
+[12:03:30] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:03:30] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"9213092742076067698"}
+[12:03:31] [DEBUG]: Received response with following cf-rays: [64aea1c9df1962f0-SYD]
+[12:03:31] [DEBUG]: Received response with following cf-rays: [64aea1c9f94afd3e-SYD]
+[12:03:31] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:03:31] [DEBUG]: Received response with following cf-rays: [64aea1cd3e2d62f0-SYD]
+[12:03:37] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:03:37] [INFO]: Reflections took 70 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:03:37] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:03:37] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:03:37] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:03:37] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:03:38] [DEBUG]: Received response with following cf-rays: [64aea1f2b9a862f0-SYD]
+[12:03:38] [DEBUG]: Received response with following cf-rays: [64aea1f4be7262f0-SYD]
+[12:03:38] [DEBUG]: Received response with following cf-rays: [64aea1f67a1762f0-SYD]
+[12:03:38] [DEBUG]: Received response with following cf-rays: [64aea1f8ce6f62f0-SYD]
+[12:03:39] [DEBUG]: Received response with following cf-rays: [64aea1fa69b962f0-SYD]
+[12:03:43] [DEBUG]: Received response with following cf-rays: [64aea2141b9d62f0-SYD]
+[12:03:43] [DEBUG]: Received response with following cf-rays: [64aea216588162f0-SYD]
+[12:03:43] [DEBUG]: Received response with following cf-rays: [64aea2184c6c62f0-SYD]
+[12:03:44] [DEBUG]: Received response with following cf-rays: [64aea219ffae62f0-SYD]
+[12:03:59] [DEBUG]: Removed 7 expired buckets
+[12:04:00] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[12:04:00] [DEBUG]: Received response with following cf-rays: [64aea27dd93362cb-SYD]
+[12:04:00] [DEBUG]: Received response with following cf-rays: [64aea27ddaa362d3-SYD]
+[12:04:04] [DEBUG]: Received response with following cf-rays: [64aea297dd5362d3-SYD]
+[12:04:29] [DEBUG]: Removed 3 expired buckets
+[12:05:58] [DEBUG]: Received response with following cf-rays: [64aea562c9b116b5-SYD]
+[12:05:58] [DEBUG]: Received response with following cf-rays: [64aea563eb9216b5-SYD]
+[12:05:58] [INFO]: Login Successful!
+[12:05:58] [DEBUG]: Creating new worker handle for shard pool 0
+[12:05:58] [DEBUG]: Running worker
+[12:05:58] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:05:59] [INFO]: Connected to WebSocket
+[12:05:59] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:05:59] [DEBUG]: Sending Identify-packet...
+[12:05:59] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:05:59] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266758973}}
+[12:05:59] [DEBUG]: Setting incomplete count to 1
+[12:05:59] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:05:59] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:05:59] [INFO]: Finished Loading!
+[12:05:59] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:06:00] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"8798075757709095410"}
+[12:06:00] [DEBUG]: Received response with following cf-rays: [64aea56d6e9416b5-SYD]
+[12:06:00] [DEBUG]: Received response with following cf-rays: [64aea56d8980fe6c-SYD]
+[12:06:00] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:06:00] [DEBUG]: Received response with following cf-rays: [64aea56f7b0316b5-SYD]
+[12:06:09] [DEBUG]: Received response with following cf-rays: [64aea5a53bec62c5-SYD]
+[12:06:09] [DEBUG]: Received response with following cf-rays: [64aea5a65e6d62c5-SYD]
+[12:06:09] [INFO]: Login Successful!
+[12:06:09] [DEBUG]: Creating new worker handle for shard pool 0
+[12:06:09] [DEBUG]: Running worker
+[12:06:09] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:06:09] [INFO]: Connected to WebSocket
+[12:06:09] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:06:09] [DEBUG]: Sending Identify-packet...
+[12:06:09] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:06:10] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620266769613}}
+[12:06:10] [DEBUG]: Setting incomplete count to 1
+[12:06:10] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:06:10] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:06:10] [INFO]: Finished Loading!
+[12:06:10] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:06:10] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-7530118753222365708"}
+[12:06:11] [DEBUG]: Received response with following cf-rays: [64aea5aff84d62c5-SYD]
+[12:06:11] [DEBUG]: Received response with following cf-rays: [64aea5b05b6416bd-SYD]
+[12:06:11] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:06:11] [DEBUG]: Received response with following cf-rays: [64aea5b29d3162c5-SYD]
+[12:06:39] [DEBUG]: Removed 6 expired buckets
+[12:13:58] [DEBUG]: Received response with following cf-rays: [64aeb11aabbefd1e-SYD]
+[12:13:59] [DEBUG]: Received response with following cf-rays: [64aeb11c6e79fd1e-SYD]
+[12:13:59] [INFO]: Login Successful!
+[12:13:59] [DEBUG]: Creating new worker handle for shard pool 0
+[12:13:59] [DEBUG]: Running worker
+[12:13:59] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:13:59] [INFO]: Connected to WebSocket
+[12:13:59] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:13:59] [DEBUG]: Sending Identify-packet...
+[12:13:59] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:13:59] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620267239133}}
+[12:13:59] [DEBUG]: Setting incomplete count to 1
+[12:13:59] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:13:59] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:13:59] [INFO]: Finished Loading!
+[12:13:59] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:14:00] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"4815640823271549724"}
+[12:14:00] [DEBUG]: Received response with following cf-rays: [64aeb1266ee9fd1e-SYD]
+[12:14:00] [DEBUG]: Received response with following cf-rays: [64aeb1268f1762d8-SYD]
+[12:14:00] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:14:00] [DEBUG]: Received response with following cf-rays: [64aeb1287a23fd1e-SYD]
+[12:14:28] [DEBUG]: Removed 6 expired buckets
+[12:14:41] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:14:41] [INFO]: Reflections took 68 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:14:41] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:14:41] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:14:41] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:14:41] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:14:41] [DEBUG]: Received response with following cf-rays: [64aeb227d86e16bd-SYD]
+[12:14:42] [DEBUG]: Received response with following cf-rays: [64aeb229bc3316bd-SYD]
+[12:14:42] [DEBUG]: Received response with following cf-rays: [64aeb22bb83d16bd-SYD]
+[12:14:42] [DEBUG]: Received response with following cf-rays: [64aeb22d7c3016bd-SYD]
+[12:14:43] [DEBUG]: Received response with following cf-rays: [64aeb22f685516bd-SYD]
+[12:14:47] [DEBUG]: Received response with following cf-rays: [64aeb2490bea16bd-SYD]
+[12:14:47] [DEBUG]: Received response with following cf-rays: [64aeb24abf4b16bd-SYD]
+[12:14:47] [DEBUG]: Received response with following cf-rays: [64aeb24c8b4516bd-SYD]
+[12:14:48] [DEBUG]: Received response with following cf-rays: [64aeb24e8fd416bd-SYD]
+[12:14:58] [DEBUG]: Removed 1 expired buckets
+[12:20:39] [DEBUG]: Received response with following cf-rays: [64aebae21ac662c5-SYD]
+[12:20:39] [DEBUG]: Received response with following cf-rays: [64aebae34d3162c5-SYD]
+[12:20:39] [INFO]: Login Successful!
+[12:20:39] [DEBUG]: Creating new worker handle for shard pool 0
+[12:20:39] [DEBUG]: Running worker
+[12:20:39] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:20:39] [INFO]: Connected to WebSocket
+[12:20:39] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:20:39] [DEBUG]: Sending Identify-packet...
+[12:20:39] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:20:40] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620267639537}}
+[12:20:40] [DEBUG]: Setting incomplete count to 1
+[12:20:40] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:20:40] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:20:40] [INFO]: Finished Loading!
+[12:20:40] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:20:40] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"3821410084450315312"}
+[12:20:41] [DEBUG]: Received response with following cf-rays: [64aebaed1a1162c5-SYD]
+[12:20:41] [DEBUG]: Received response with following cf-rays: [64aebaed3f6dfd32-SYD]
+[12:20:41] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:20:41] [DEBUG]: Received response with following cf-rays: [64aebaef7ef362c5-SYD]
+[12:20:52] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:20:52] [INFO]: Reflections took 70 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:20:52] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:20:52] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:20:52] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:20:52] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:20:53] [DEBUG]: Received response with following cf-rays: [64aebb37fd5afd36-SYD]
+[12:20:53] [DEBUG]: Received response with following cf-rays: [64aebb39f8fcfd36-SYD]
+[12:20:53] [DEBUG]: Received response with following cf-rays: [64aebb3bbc1cfd36-SYD]
+[12:20:53] [DEBUG]: Received response with following cf-rays: [64aebb3d6ee5fd36-SYD]
+[12:20:54] [DEBUG]: Received response with following cf-rays: [64aebb3f09c3fd36-SYD]
+[12:20:58] [DEBUG]: Received response with following cf-rays: [64aebb594db4fd36-SYD]
+[12:20:58] [DEBUG]: Received response with following cf-rays: [64aebb5b38dbfd36-SYD]
+[12:20:58] [DEBUG]: Received response with following cf-rays: [64aebb5ceb8ffd36-SYD]
+[12:20:59] [DEBUG]: Received response with following cf-rays: [64aebb5e8e19fd36-SYD]
+[12:21:08] [DEBUG]: Removed 6 expired buckets
+[12:25:44] [DEBUG]: Received response with following cf-rays: [64aec2569fd84f46-SYD]
+[12:25:44] [DEBUG]: Received response with following cf-rays: [64aec257c9d34f46-SYD]
+[12:25:44] [INFO]: Login Successful!
+[12:25:44] [DEBUG]: Creating new worker handle for shard pool 0
+[12:25:44] [DEBUG]: Running worker
+[12:25:44] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:25:45] [INFO]: Connected to WebSocket
+[12:25:45] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:25:45] [DEBUG]: Sending Identify-packet...
+[12:25:45] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:25:45] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620267944900}}
+[12:25:45] [DEBUG]: Setting incomplete count to 1
+[12:25:45] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:25:45] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:25:45] [INFO]: Finished Loading!
+[12:25:45] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:25:45] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"8167173747253675290"}
+[12:25:46] [DEBUG]: Received response with following cf-rays: [64aec26189e34f46-SYD]
+[12:25:46] [DEBUG]: Received response with following cf-rays: [64aec261ac22fe74-SYD]
+[12:25:46] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:25:46] [DEBUG]: Received response with following cf-rays: [64aec263beb94f46-SYD]
+[12:26:02] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:26:02] [INFO]: Reflections took 69 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:26:02] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:26:02] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:26:02] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:26:02] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:26:02] [DEBUG]: Received response with following cf-rays: [64aec2c5afda62bf-SYD]
+[12:26:02] [DEBUG]: Received response with following cf-rays: [64aec2c79b2762bf-SYD]
+[12:26:03] [DEBUG]: Received response with following cf-rays: [64aec2c95e4462bf-SYD]
+[12:26:03] [DEBUG]: Received response with following cf-rays: [64aec2cb094462bf-SYD]
+[12:26:03] [DEBUG]: Received response with following cf-rays: [64aec2cc9c2f62bf-SYD]
+[12:26:07] [DEBUG]: Received response with following cf-rays: [64aec2e6bac762bf-SYD]
+[12:26:08] [DEBUG]: Received response with following cf-rays: [64aec2e8df3562bf-SYD]
+[12:26:08] [DEBUG]: Received response with following cf-rays: [64aec2eabb1462bf-SYD]
+[12:26:08] [DEBUG]: Received response with following cf-rays: [64aec2ec8f7162bf-SYD]
+[12:26:14] [DEBUG]: Removed 6 expired buckets
+[12:26:21] [DEBUG]: Received response with following cf-rays: [64aec33b484b62eb-SYD]
+[12:26:21] [DEBUG]: Received response with following cf-rays: [64aec33d3c5862eb-SYD]
+[12:26:21] [INFO]: Login Successful!
+[12:26:21] [DEBUG]: Creating new worker handle for shard pool 0
+[12:26:21] [DEBUG]: Running worker
+[12:26:21] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:26:21] [INFO]: Connected to WebSocket
+[12:26:21] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:26:21] [DEBUG]: Sending Identify-packet...
+[12:26:21] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:26:22] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620267981661}}
+[12:26:22] [DEBUG]: Setting incomplete count to 1
+[12:26:22] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:26:22] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:26:22] [INFO]: Finished Loading!
+[12:26:22] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:26:22] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"6133707237628042234"}
+[12:26:23] [DEBUG]: Received response with following cf-rays: [64aec3476a3662eb-SYD]
+[12:26:23] [DEBUG]: Received response with following cf-rays: [64aec34759fe62eb-SYD]
+[12:26:23] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:26:23] [DEBUG]: Received response with following cf-rays: [64aec3492ddb62eb-SYD]
+[12:26:33] [DEBUG]: Received response with following cf-rays: [64aec3878ff262eb-SYD]
+[12:26:33] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:26:33] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[12:26:33] [DEBUG]: Received response with following cf-rays: [64aec3878fd862eb-SYD]
+[12:26:33] [INFO]: Reflections took 73 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:26:33] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:26:33] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:26:33] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:26:33] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:26:33] [DEBUG]: Received response with following cf-rays: [64aec389bc1a62eb-SYD]
+[12:26:34] [DEBUG]: Received response with following cf-rays: [64aec38bafd962eb-SYD]
+[12:26:34] [DEBUG]: Received response with following cf-rays: [64aec38d4ae662eb-SYD]
+[12:26:34] [DEBUG]: Received response with following cf-rays: [64aec38f1ed762eb-SYD]
+[12:26:38] [DEBUG]: Received response with following cf-rays: [64aec3a89a8562eb-SYD]
+[12:26:39] [DEBUG]: Received response with following cf-rays: [64aec3ab786762eb-SYD]
+[12:26:39] [DEBUG]: Received response with following cf-rays: [64aec3ad2c8c62eb-SYD]
+[12:26:39] [DEBUG]: Received response with following cf-rays: [64aec3aecfe262eb-SYD]
+[12:26:40] [DEBUG]: Received response with following cf-rays: [64aec3b08af562eb-SYD]
+[12:26:50] [DEBUG]: Removed 8 expired buckets
+[12:32:06] [DEBUG]: Received response with following cf-rays: [64aecba9df9a16c1-SYD]
+[12:32:06] [DEBUG]: Received response with following cf-rays: [64aecbaae9d116c1-SYD]
+[12:32:06] [INFO]: Login Successful!
+[12:32:06] [DEBUG]: Creating new worker handle for shard pool 0
+[12:32:06] [DEBUG]: Running worker
+[12:32:06] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:32:07] [INFO]: Connected to WebSocket
+[12:32:07] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:32:07] [DEBUG]: Sending Identify-packet...
+[12:32:07] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:32:07] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620268326816}}
+[12:32:07] [DEBUG]: Setting incomplete count to 1
+[12:32:07] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:32:07] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:32:07] [INFO]: Finished Loading!
+[12:32:07] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:32:07] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-7780906341204645264"}
+[12:32:08] [DEBUG]: Received response with following cf-rays: [64aecbb49e5116c1-SYD]
+[12:32:08] [DEBUG]: Received response with following cf-rays: [64aecbb4b91e62d2-SYD]
+[12:32:08] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:32:08] [DEBUG]: Received response with following cf-rays: [64aecbb6cb7516c1-SYD]
+[12:32:23] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:32:23] [INFO]: Reflections took 67 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:32:23] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:32:23] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:32:23] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:32:23] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:32:24] [DEBUG]: Received response with following cf-rays: [64aecc176dea16cd-SYD]
+[12:32:24] [DEBUG]: Received response with following cf-rays: [64aecc198a7816cd-SYD]
+[12:32:24] [DEBUG]: Received response with following cf-rays: [64aecc1b2dd716cd-SYD]
+[12:32:25] [DEBUG]: Received response with following cf-rays: [64aecc1d2a4616cd-SYD]
+[12:32:25] [DEBUG]: Received response with following cf-rays: [64aecc1edd6516cd-SYD]
+[12:32:29] [DEBUG]: Received response with following cf-rays: [64aecc388c2316cd-SYD]
+[12:32:29] [DEBUG]: Received response with following cf-rays: [64aecc3a5f6616cd-SYD]
+[12:32:30] [DEBUG]: Received response with following cf-rays: [64aecc3c0a8a16cd-SYD]
+[12:32:30] [DEBUG]: Received response with following cf-rays: [64aecc3dadaa16cd-SYD]
+[12:32:30] [DEBUG]: Received response with following cf-rays: [64aecc3dcd25fd42-SYD]
+[12:32:36] [DEBUG]: Removed 8 expired buckets
+[12:43:25] [DEBUG]: Received response with following cf-rays: [64aedc3dccfffd52-SYD]
+[12:43:25] [DEBUG]: Received response with following cf-rays: [64aedc3eeee0fd52-SYD]
+[12:43:25] [INFO]: Login Successful!
+[12:43:25] [DEBUG]: Creating new worker handle for shard pool 0
+[12:43:25] [DEBUG]: Running worker
+[12:43:25] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:43:26] [INFO]: Connected to WebSocket
+[12:43:26] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:43:26] [DEBUG]: Sending Identify-packet...
+[12:43:26] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:43:26] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269005852}}
+[12:43:26] [DEBUG]: Setting incomplete count to 1
+[12:43:26] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:43:26] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:43:26] [INFO]: Finished Loading!
+[12:43:26] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:43:26] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-7028124115520238118"}
+[12:43:27] [DEBUG]: Received response with following cf-rays: [64aedc489da8fd52-SYD]
+[12:43:27] [DEBUG]: Received response with following cf-rays: [64aedc48bf40fe70-SYD]
+[12:43:27] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:43:27] [DEBUG]: Received response with following cf-rays: [64aedc4ac940fd52-SYD]
+[12:43:35] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:43:35] [INFO]: Reflections took 75 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:43:35] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:43:35] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:43:35] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:43:35] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:43:35] [DEBUG]: Received response with following cf-rays: [64aedc7c69b5fd52-SYD]
+[12:43:35] [DEBUG]: Received response with following cf-rays: [64aedc7e0c35fd52-SYD]
+[12:43:36] [DEBUG]: Received response with following cf-rays: [64aedc7fcedbfd52-SYD]
+[12:43:36] [DEBUG]: Received response with following cf-rays: [64aedc81895ffd52-SYD]
+[12:43:36] [DEBUG]: Received response with following cf-rays: [64aedc833bf5fd52-SYD]
+[12:43:40] [DEBUG]: Received response with following cf-rays: [64aedc9d9e23fd52-SYD]
+[12:43:41] [DEBUG]: Received response with following cf-rays: [64aedc9f3892fd52-SYD]
+[12:43:41] [DEBUG]: Received response with following cf-rays: [64aedca11ba8fd52-SYD]
+[12:43:41] [DEBUG]: Received response with following cf-rays: [64aedca30f39fd52-SYD]
+[12:43:55] [DEBUG]: Removed 6 expired buckets
+[12:44:52] [DEBUG]: Received response with following cf-rays: [64aede5ddf5962f0-SYD]
+[12:45:25] [DEBUG]: Removed 1 expired buckets
+[12:48:36] [DEBUG]: Received response with following cf-rays: [64aee3d5a8b962bf-SYD]
+[12:48:55] [DEBUG]: Removed 1 expired buckets
+[12:49:31] [DEBUG]: Received response with following cf-rays: [64aee52b0874d6a1-SYD]
+[12:49:40] [DEBUG]: Received response with following cf-rays: [64aee5643b71d6a1-SYD]
+[12:49:50] [DEBUG]: Received response with following cf-rays: [64aee5a3fdc916a9-SYD]
+[12:49:50] [DEBUG]: Received response with following cf-rays: [64aee5a5587616a9-SYD]
+[12:49:50] [INFO]: Login Successful!
+[12:49:50] [DEBUG]: Creating new worker handle for shard pool 0
+[12:49:50] [DEBUG]: Running worker
+[12:49:50] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:49:51] [INFO]: Connected to WebSocket
+[12:49:51] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:49:51] [DEBUG]: Sending Identify-packet...
+[12:49:51] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:49:51] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269390881}}
+[12:49:51] [DEBUG]: Setting incomplete count to 1
+[12:49:51] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:49:51] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:49:51] [INFO]: Finished Loading!
+[12:49:51] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:49:51] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"6626700274881570926"}
+[12:49:52] [DEBUG]: Received response with following cf-rays: [64aee5aefcca16a9-SYD]
+[12:49:52] [DEBUG]: Received response with following cf-rays: [64aee5af18a0fd46-SYD]
+[12:49:52] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:49:52] [DEBUG]: Received response with following cf-rays: [64aee5b118d216a9-SYD]
+[12:49:57] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:49:57] [INFO]: Reflections took 68 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:49:57] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:49:57] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:49:57] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:49:57] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:49:57] [DEBUG]: Received response with following cf-rays: [64aee5d019a416a9-SYD]
+[12:49:57] [DEBUG]: Received response with following cf-rays: [64aee5d1dd7216a9-SYD]
+[12:49:58] [DEBUG]: Received response with following cf-rays: [64aee5d3985416a9-SYD]
+[12:49:58] [DEBUG]: Received response with following cf-rays: [64aee5d57b9e16a9-SYD]
+[12:49:58] [DEBUG]: Received response with following cf-rays: [64aee5d71e9316a9-SYD]
+[12:49:59] [DEBUG]: Received response with following cf-rays: [64aee5d8d9a216a9-SYD]
+[12:50:03] [DEBUG]: Received response with following cf-rays: [64aee5f32d5e16a9-SYD]
+[12:50:03] [DEBUG]: Received response with following cf-rays: [64aee5f51b6d16a9-SYD]
+[12:50:03] [DEBUG]: Received response with following cf-rays: [64aee5f6cf6816a9-SYD]
+[12:50:08] [DEBUG]: Received response with following cf-rays: [64aee610ab3716a9-SYD]
+[12:50:20] [DEBUG]: Removed 6 expired buckets
+[12:50:26] [DEBUG]: Received response with following cf-rays: [64aee6854af116b5-SYD]
+[12:50:26] [DEBUG]: Received response with following cf-rays: [64aee6866d3e16b5-SYD]
+[12:50:26] [INFO]: Login Successful!
+[12:50:26] [DEBUG]: Creating new worker handle for shard pool 0
+[12:50:26] [DEBUG]: Running worker
+[12:50:26] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:50:27] [INFO]: Connected to WebSocket
+[12:50:27] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:50:27] [DEBUG]: Sending Identify-packet...
+[12:50:27] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:50:27] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269426899}}
+[12:50:27] [DEBUG]: Setting incomplete count to 1
+[12:50:27] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:50:27] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:50:27] [INFO]: Finished Loading!
+[12:50:27] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:50:27] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-385627055223968788"}
+[12:50:28] [DEBUG]: Received response with following cf-rays: [64aee69009af16b5-SYD]
+[12:50:28] [DEBUG]: Received response with following cf-rays: [64aee690280c2b0e-SYD]
+[12:50:28] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:50:28] [DEBUG]: Received response with following cf-rays: [64aee6928f6516b5-SYD]
+[12:50:35] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:50:35] [INFO]: Reflections took 70 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:50:35] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:50:35] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:50:35] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:50:35] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:50:35] [DEBUG]: Received response with following cf-rays: [64aee6bd4e6216b5-SYD]
+[12:50:35] [DEBUG]: Received response with following cf-rays: [64aee6bee98416b5-SYD]
+[12:50:36] [DEBUG]: Received response with following cf-rays: [64aee6c10de716b5-SYD]
+[12:50:36] [DEBUG]: Received response with following cf-rays: [64aee6c2e97416b5-SYD]
+[12:50:36] [DEBUG]: Received response with following cf-rays: [64aee6c48ca916b5-SYD]
+[12:50:41] [DEBUG]: Received response with following cf-rays: [64aee6dec92616b5-SYD]
+[12:50:41] [DEBUG]: Received response with following cf-rays: [64aee6e07cb716b5-SYD]
+[12:50:41] [DEBUG]: Received response with following cf-rays: [64aee6e2186716b5-SYD]
+[12:50:41] [DEBUG]: Received response with following cf-rays: [64aee6e3cbe116b5-SYD]
+[12:50:41] [DEBUG]: Received response with following cf-rays: [64aee6e3febffd42-SYD]
+[12:50:56] [DEBUG]: Removed 8 expired buckets
+[12:53:33] [DEBUG]: Received response with following cf-rays: [64aeeb180bf516b9-SYD]
+[12:53:34] [DEBUG]: Received response with following cf-rays: [64aeeb191dc816b9-SYD]
+[12:53:34] [INFO]: Login Successful!
+[12:53:34] [DEBUG]: Creating new worker handle for shard pool 0
+[12:53:34] [DEBUG]: Running worker
+[12:53:34] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:53:34] [INFO]: Connected to WebSocket
+[12:53:34] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:53:34] [DEBUG]: Sending Identify-packet...
+[12:53:34] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:53:34] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269614228}}
+[12:53:34] [DEBUG]: Setting incomplete count to 1
+[12:53:34] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:53:34] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:53:34] [INFO]: Finished Loading!
+[12:53:34] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:53:35] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-982366418869757896"}
+[12:53:35] [DEBUG]: Received response with following cf-rays: [64aeeb22e93016b9-SYD]
+[12:53:35] [DEBUG]: Received response with following cf-rays: [64aeeb231c5afd2e-SYD]
+[12:53:36] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:53:36] [DEBUG]: Received response with following cf-rays: [64aeeb24ed0516b9-SYD]
+[12:53:42] [DEBUG]: Received response with following cf-rays: [64aeeb4c4e09fe64-SYD]
+[12:53:42] [DEBUG]: Received response with following cf-rays: [64aeeb4d5f61fe64-SYD]
+[12:53:42] [INFO]: Login Successful!
+[12:53:42] [DEBUG]: Creating new worker handle for shard pool 0
+[12:53:42] [DEBUG]: Running worker
+[12:53:42] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:53:42] [INFO]: Connected to WebSocket
+[12:53:42] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:53:42] [DEBUG]: Sending Identify-packet...
+[12:53:42] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:53:43] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269622604}}
+[12:53:43] [DEBUG]: Setting incomplete count to 1
+[12:53:43] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:53:43] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:53:43] [INFO]: Finished Loading!
+[12:53:43] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:53:43] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"973079052167217156"}
+[12:53:44] [DEBUG]: Received response with following cf-rays: [64aeeb572f86fe64-SYD]
+[12:53:44] [DEBUG]: Received response with following cf-rays: [64aeeb573c9616a9-SYD]
+[12:53:44] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:53:44] [DEBUG]: Received response with following cf-rays: [64aeeb594b71fe64-SYD]
+[12:54:08] [DEBUG]: Received response with following cf-rays: [64aeebefc904da5e-SYD]
+[12:54:08] [DEBUG]: Received response with following cf-rays: [64aeebf10b69da5e-SYD]
+[12:54:08] [INFO]: Login Successful!
+[12:54:08] [DEBUG]: Creating new worker handle for shard pool 0
+[12:54:08] [DEBUG]: Running worker
+[12:54:08] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:54:09] [INFO]: Connected to WebSocket
+[12:54:09] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:54:09] [DEBUG]: Sending Identify-packet...
+[12:54:09] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:54:09] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269648764}}
+[12:54:09] [DEBUG]: Setting incomplete count to 1
+[12:54:09] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:54:09] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:54:09] [INFO]: Finished Loading!
+[12:54:09] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:54:09] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"4435450070058924940"}
+[12:54:10] [DEBUG]: Received response with following cf-rays: [64aeebfaeee5da5e-SYD]
+[12:54:10] [DEBUG]: Received response with following cf-rays: [64aeebfafb19fe6c-SYD]
+[12:54:10] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[12:54:10] [DEBUG]: Received response with following cf-rays: [64aeebfd09f3da5e-SYD]
+[12:54:38] [DEBUG]: Removed 6 expired buckets
+[12:56:43] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[12:56:43] [INFO]: Reflections took 69 ms to scan 1 urls, producing 5 keys and 15 values 
+[12:56:43] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[12:56:43] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[12:56:43] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[12:56:43] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[12:56:44] [DEBUG]: Received response with following cf-rays: [64aeefbd1c1962e5-SYD]
+[12:56:44] [DEBUG]: Received response with following cf-rays: [64aeefbedfb662e5-SYD]
+[12:56:44] [DEBUG]: Received response with following cf-rays: [64aeefc0ebf962e5-SYD]
+[12:56:45] [DEBUG]: Received response with following cf-rays: [64aeefc2cf6262e5-SYD]
+[12:56:46] [DEBUG]: Received response with following cf-rays: [64aeefc48b0562e5-SYD]
+[12:56:49] [DEBUG]: Received response with following cf-rays: [64aeefdeec5a62e5-SYD]
+[12:56:49] [DEBUG]: Received response with following cf-rays: [64aeefe0afa562e5-SYD]
+[12:56:50] [DEBUG]: Received response with following cf-rays: [64aeefe25b4362e5-SYD]
+[12:56:50] [DEBUG]: Received response with following cf-rays: [64aeefe41ec462e5-SYD]
+[12:56:50] [DEBUG]: Received response with following cf-rays: [64aeefe43b7016d1-SYD]
+[12:57:08] [DEBUG]: Removed 2 expired buckets
+[12:59:57] [DEBUG]: Received response with following cf-rays: [64aef4780b62fe60-SYD]
+[12:59:58] [DEBUG]: Received response with following cf-rays: [64aef4793cd5fe60-SYD]
+[12:59:58] [INFO]: Login Successful!
+[12:59:58] [DEBUG]: Creating new worker handle for shard pool 0
+[12:59:58] [DEBUG]: Running worker
+[12:59:58] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[12:59:58] [INFO]: Connected to WebSocket
+[12:59:58] [DEBUG]: Connected with gateway intents: 11011011001111
+[12:59:58] [DEBUG]: Sending Identify-packet...
+[12:59:58] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[12:59:58] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620269998236}}
+[12:59:58] [DEBUG]: Setting incomplete count to 1
+[12:59:58] [DEBUG]: Starting 75 second timeout for 1 guilds
+[12:59:58] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[12:59:58] [INFO]: Finished Loading!
+[12:59:58] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[12:59:59] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"4258880741962935404"}
+[12:59:59] [DEBUG]: Received response with following cf-rays: [64aef4830a55fe60-SYD]
+[12:59:59] [DEBUG]: Received response with following cf-rays: [64aef4832e59fd2e-SYD]
+[13:00:00] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:00:00] [DEBUG]: Received response with following cf-rays: [64aef4854d90fe60-SYD]
+[13:00:04] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:00:05] [INFO]: Reflections took 72 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:00:05] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:00:05] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:00:05] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:00:05] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:00:05] [DEBUG]: Received response with following cf-rays: [64aef4a5ded5fe60-SYD]
+[13:00:05] [DEBUG]: Received response with following cf-rays: [64aef4a78962fe60-SYD]
+[13:00:05] [DEBUG]: Received response with following cf-rays: [64aef4a97cb7fe60-SYD]
+[13:00:06] [DEBUG]: Received response with following cf-rays: [64aef4ab5ff0fe60-SYD]
+[13:00:06] [DEBUG]: Received response with following cf-rays: [64aef4aceab7fe60-SYD]
+[13:00:10] [DEBUG]: Received response with following cf-rays: [64aef4c708e3fe60-SYD]
+[13:00:10] [DEBUG]: Received response with following cf-rays: [64aef4c8bb5dfe60-SYD]
+[13:00:11] [DEBUG]: Received response with following cf-rays: [64aef4cabe5afe60-SYD]
+[13:00:11] [DEBUG]: Received response with following cf-rays: [64aef4cca9defe60-SYD]
+[13:00:27] [DEBUG]: Removed 6 expired buckets
+[13:02:02] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[13:03:37] [DEBUG]: Received response with following cf-rays: [64aef9d7cd95fe68-SYD]
+[13:03:38] [DEBUG]: Received response with following cf-rays: [64aef9d90fb6fe68-SYD]
+[13:03:38] [INFO]: Login Successful!
+[13:03:38] [DEBUG]: Creating new worker handle for shard pool 0
+[13:03:38] [DEBUG]: Running worker
+[13:03:38] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:03:38] [INFO]: Connected to WebSocket
+[13:03:38] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:03:38] [DEBUG]: Sending Identify-packet...
+[13:03:38] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:03:38] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620270218344}}
+[13:03:39] [DEBUG]: Setting incomplete count to 1
+[13:03:39] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:03:39] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:03:39] [INFO]: Finished Loading!
+[13:03:39] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:03:39] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-5880291950903913302"}
+[13:03:40] [DEBUG]: Received response with following cf-rays: [64aef9e36fe3fe68-SYD]
+[13:03:40] [DEBUG]: Received response with following cf-rays: [64aef9e37855fd56-SYD]
+[13:03:40] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:03:40] [DEBUG]: Received response with following cf-rays: [64aef9e57b76fe68-SYD]
+[13:04:07] [DEBUG]: Removed 6 expired buckets
+[13:08:55] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:08:55] [INFO]: Reflections took 76 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:08:55] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:08:55] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:08:55] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:08:55] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:08:55] [DEBUG]: Received response with following cf-rays: [64af01be8b4fda56-SYD]
+[13:08:56] [DEBUG]: Received response with following cf-rays: [64af01c07e64da56-SYD]
+[13:08:56] [DEBUG]: Received response with following cf-rays: [64af01c249d2da56-SYD]
+[13:08:56] [DEBUG]: Received response with following cf-rays: [64af01c45d59da56-SYD]
+[13:08:56] [DEBUG]: Received response with following cf-rays: [64af01c62869da56-SYD]
+[13:09:01] [DEBUG]: Received response with following cf-rays: [64af01df9e15da56-SYD]
+[13:09:01] [DEBUG]: Received response with following cf-rays: [64af01e1b9e1da56-SYD]
+[13:09:01] [DEBUG]: Received response with following cf-rays: [64af01e37cfeda56-SYD]
+[13:09:01] [DEBUG]: Removed 1 expired buckets
+[13:09:01] [DEBUG]: Received response with following cf-rays: [64af01e53fd3da56-SYD]
+[13:09:01] [DEBUG]: Received response with following cf-rays: [64af01e55b7316bd-SYD]
+[13:09:03] [ERROR]: One of the EventListeners had an uncaught exception
+java.lang.IllegalArgumentException: Title may not be empty
+	at net.dv8tion.jda.internal.utils.Checks.notEmpty(Checks.java:72)
+	at net.dv8tion.jda.api.EmbedBuilder.setTitle(EmbedBuilder.java:297)
+	at net.dv8tion.jda.api.EmbedBuilder.setTitle(EmbedBuilder.java:263)
+	at com.zilleyy.jda.command.Command.onError(Command.java:46)
+	at com.zilleyy.jda.command.CommandManager.handle(CommandManager.java:62)
+	at com.zilleyy.jda.listener.MessageListener.onMessageReceived(MessageListener.java:50)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:149)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:956)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:843)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:821)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:994)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[13:09:08] [DEBUG]: Received response with following cf-rays: [64af020dbb13da56-SYD]
+[13:09:33] [DEBUG]: Received response with following cf-rays: [64af02a918a0d699-SYD]
+[13:09:33] [DEBUG]: Received response with following cf-rays: [64af02abbc3cd699-SYD]
+[13:09:33] [INFO]: Login Successful!
+[13:09:33] [DEBUG]: Creating new worker handle for shard pool 0
+[13:09:33] [DEBUG]: Running worker
+[13:09:33] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:09:34] [INFO]: Connected to WebSocket
+[13:09:34] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:09:34] [DEBUG]: Sending Identify-packet...
+[13:09:34] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:09:34] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620270573693}}
+[13:09:34] [DEBUG]: Setting incomplete count to 1
+[13:09:34] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:09:34] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:09:34] [INFO]: Finished Loading!
+[13:09:34] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:09:34] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-4512133046820330784"}
+[13:09:35] [DEBUG]: Received response with following cf-rays: [64af02b67cded699-SYD]
+[13:09:35] [DEBUG]: Received response with following cf-rays: [64af02b6f84116c1-SYD]
+[13:09:35] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:09:35] [DEBUG]: Received response with following cf-rays: [64af02b97912d699-SYD]
+[13:09:37] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:09:37] [INFO]: Reflections took 122 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:09:37] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:09:37] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:09:37] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:09:37] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:09:38] [DEBUG]: Received response with following cf-rays: [64af02c79d6dd699-SYD]
+[13:09:38] [DEBUG]: Received response with following cf-rays: [64af02c9d8b9d699-SYD]
+[13:09:38] [DEBUG]: Received response with following cf-rays: [64af02cb6b39d699-SYD]
+[13:09:39] [DEBUG]: Received response with following cf-rays: [64af02cdbe8dd699-SYD]
+[13:09:41] [DEBUG]: Received response with following cf-rays: [64af02da7bfad699-SYD]
+[13:09:41] [DEBUG]: Received response with following cf-rays: [64af02dd38e7d699-SYD]
+[13:09:41] [DEBUG]: Received response with following cf-rays: [64af02deeb56d699-SYD]
+[13:09:42] [DEBUG]: Received response with following cf-rays: [64af02e09e1cd699-SYD]
+[13:09:42] [DEBUG]: Received response with following cf-rays: [64af02e248f8d699-SYD]
+[13:09:42] [DEBUG]: Received response with following cf-rays: [64af02e25b9916c1-SYD]
+[13:10:02] [DEBUG]: Removed 7 expired buckets
+[13:10:27] [DEBUG]: Received response with following cf-rays: [64af03fdba8716b1-SYD]
+[13:10:27] [DEBUG]: Received response with following cf-rays: [64af03fedcd516b1-SYD]
+[13:10:27] [INFO]: Login Successful!
+[13:10:27] [DEBUG]: Creating new worker handle for shard pool 0
+[13:10:27] [DEBUG]: Running worker
+[13:10:27] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:10:28] [INFO]: Connected to WebSocket
+[13:10:28] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:10:28] [DEBUG]: Sending Identify-packet...
+[13:10:28] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:10:28] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620270627930}}
+[13:10:28] [DEBUG]: Setting incomplete count to 1
+[13:10:28] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:10:28] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:10:28] [INFO]: Finished Loading!
+[13:10:28] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:10:28] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-3596860613948074590"}
+[13:10:29] [DEBUG]: Received response with following cf-rays: [64af040878ef16b1-SYD]
+[13:10:29] [DEBUG]: Received response with following cf-rays: [64af04089c82da5e-SYD]
+[13:10:29] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:10:29] [DEBUG]: Received response with following cf-rays: [64af040add6816b1-SYD]
+[13:10:42] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:10:42] [INFO]: Reflections took 71 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:10:42] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:10:42] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:10:42] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:10:42] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:10:43] [DEBUG]: Received response with following cf-rays: [64af045dbf4416b1-SYD]
+[13:10:43] [DEBUG]: Received response with following cf-rays: [64af045f9b0016b1-SYD]
+[13:10:43] [DEBUG]: Received response with following cf-rays: [64af04613e6516b1-SYD]
+[13:10:43] [DEBUG]: Received response with following cf-rays: [64af0462d96016b1-SYD]
+[13:10:44] [DEBUG]: Received response with following cf-rays: [64af04649cbf16b1-SYD]
+[13:10:48] [DEBUG]: Received response with following cf-rays: [64af047ec85516b1-SYD]
+[13:10:48] [DEBUG]: Received response with following cf-rays: [64af0480bcc116b1-SYD]
+[13:10:49] [DEBUG]: Received response with following cf-rays: [64af048298e916b1-SYD]
+[13:10:49] [DEBUG]: Received response with following cf-rays: [64af04849d5316b1-SYD]
+[13:10:49] [DEBUG]: Received response with following cf-rays: [64af0484da4fda5e-SYD]
+[13:10:57] [DEBUG]: Removed 8 expired buckets
+[13:11:11] [DEBUG]: Received response with following cf-rays: [64af050f4e7562e5-SYD]
+[13:11:15] [DEBUG]: Received response with following cf-rays: [64af0528ceec62e5-SYD]
+[13:11:27] [DEBUG]: Removed 2 expired buckets
+[13:11:42] [DEBUG]: Received response with following cf-rays: [64af05cf9a8862ea-SYD]
+[13:11:42] [DEBUG]: Received response with following cf-rays: [64af05d0dca962ea-SYD]
+[13:11:42] [INFO]: Login Successful!
+[13:11:42] [DEBUG]: Creating new worker handle for shard pool 0
+[13:11:42] [DEBUG]: Running worker
+[13:11:42] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:11:42] [INFO]: Connected to WebSocket
+[13:11:42] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:11:42] [DEBUG]: Sending Identify-packet...
+[13:11:42] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:11:42] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620270702483}}
+[13:11:43] [DEBUG]: Setting incomplete count to 1
+[13:11:43] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:11:43] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:11:43] [INFO]: Finished Loading!
+[13:11:43] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:11:43] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-5203565096655218848"}
+[13:11:44] [DEBUG]: Received response with following cf-rays: [64af05da88e8fe60-SYD]
+[13:11:44] [DEBUG]: Received response with following cf-rays: [64af05da5b5b62ea-SYD]
+[13:11:44] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:11:44] [DEBUG]: Received response with following cf-rays: [64af05dc880262ea-SYD]
+[13:12:11] [DEBUG]: Removed 6 expired buckets
+[13:12:34] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:12:34] [INFO]: Reflections took 75 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:12:34] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:12:34] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:12:34] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:12:34] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:12:34] [DEBUG]: Received response with following cf-rays: [64af07182ae016ad-SYD]
+[13:12:35] [DEBUG]: Received response with following cf-rays: [64af0719de3b16ad-SYD]
+[13:12:35] [DEBUG]: Received response with following cf-rays: [64af071b795b16ad-SYD]
+[13:12:35] [DEBUG]: Received response with following cf-rays: [64af071d5cd016ad-SYD]
+[13:12:36] [DEBUG]: Received response with following cf-rays: [64af071f28a416ad-SYD]
+[13:12:40] [DEBUG]: Received response with following cf-rays: [64af07395fbb16ad-SYD]
+[13:12:40] [DEBUG]: Received response with following cf-rays: [64af073b6cb616ad-SYD]
+[13:12:40] [DEBUG]: Received response with following cf-rays: [64af073daa9916ad-SYD]
+[13:12:40] [ERROR]: One of the EventListeners had an uncaught exception
+java.lang.IllegalArgumentException: Description cannot be longer than 2048 characters.
+	at net.dv8tion.jda.internal.utils.Checks.check(Checks.java:57)
+	at net.dv8tion.jda.api.EmbedBuilder.appendDescription(EmbedBuilder.java:364)
+	at net.dv8tion.jda.api.EmbedBuilder.setDescription(EmbedBuilder.java:340)
+	at com.zilleyy.jda.console.ConsoleLogger.error(ConsoleLogger.java:85)
+	at com.zilleyy.jda.listener.MessageListener.onMessageReceived(MessageListener.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:149)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:956)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:843)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:821)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:994)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[13:12:41] [DEBUG]: Received response with following cf-rays: [64af073f4e6516ad-SYD]
+[13:13:11] [DEBUG]: Removed 1 expired buckets
+[13:14:16] [DEBUG]: Received response with following cf-rays: [64af0991f96c16b9-SYD]
+[13:14:16] [DEBUG]: Received response with following cf-rays: [64af09931bbb16b9-SYD]
+[13:14:16] [INFO]: Login Successful!
+[13:14:16] [DEBUG]: Creating new worker handle for shard pool 0
+[13:14:16] [DEBUG]: Running worker
+[13:14:16] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:14:16] [INFO]: Connected to WebSocket
+[13:14:16] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:14:16] [DEBUG]: Sending Identify-packet...
+[13:14:16] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:14:16] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620270856451}}
+[13:14:17] [DEBUG]: Setting incomplete count to 1
+[13:14:17] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:14:17] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:14:17] [INFO]: Finished Loading!
+[13:14:17] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:14:17] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"1895933412430881074"}
+[13:14:18] [DEBUG]: Received response with following cf-rays: [64af099cc87016b9-SYD]
+[13:14:18] [DEBUG]: Received response with following cf-rays: [64af099cec25da52-SYD]
+[13:14:18] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:14:18] [DEBUG]: Received response with following cf-rays: [64af099f1d0d16b9-SYD]
+[13:14:35] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:14:35] [INFO]: Reflections took 68 ms to scan 1 urls, producing 5 keys and 15 values 
+[13:14:35] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:14:35] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:14:35] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:14:35] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:14:35] [DEBUG]: Received response with following cf-rays: [64af0a099ed062b9-SYD]
+[13:14:35] [DEBUG]: Received response with following cf-rays: [64af0a0c0c0062b9-SYD]
+[13:14:36] [DEBUG]: Received response with following cf-rays: [64af0a0dc82f62b9-SYD]
+[13:14:36] [DEBUG]: Received response with following cf-rays: [64af0a0f6bea62b9-SYD]
+[13:14:36] [DEBUG]: Received response with following cf-rays: [64af0a111f6c62b9-SYD]
+[13:14:40] [DEBUG]: Received response with following cf-rays: [64af0a2a9fbb62b9-SYD]
+[13:14:40] [DEBUG]: Received response with following cf-rays: [64af0a2c4b3b62b9-SYD]
+[13:14:41] [DEBUG]: Received response with following cf-rays: [64af0a2dfeff62b9-SYD]
+[13:14:41] [DEBUG]: Received response with following cf-rays: [64af0a2fdac062b9-SYD]
+[13:14:41] [DEBUG]: Received response with following cf-rays: [64af0a31be3862b9-SYD]
+[13:14:41] [DEBUG]: Received response with following cf-rays: [64af0a31dc4216b9-SYD]
+[13:14:45] [DEBUG]: Removed 7 expired buckets
+[13:15:07] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:15:07] [DEBUG]: Received response with following cf-rays: [64af0acfe92516a9-SYD]
+[13:15:07] [DEBUG]: Received response with following cf-rays: [64af0acfebb2fe70-SYD]
+[13:15:11] [DEBUG]: Received response with following cf-rays: [64af0ae9dd7116a9-SYD]
+[13:15:15] [DEBUG]: Removed 2 expired buckets
+[13:15:44] [DEBUG]: Received response with following cf-rays: [64af0bb89eb2fe70-SYD]
+[13:15:45] [DEBUG]: Removed 2 expired buckets
+[13:15:48] [DEBUG]: Received response with following cf-rays: [64af0bd23dc2fe70-SYD]
+[13:16:15] [DEBUG]: Removed 2 expired buckets
+[13:16:39] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[13:16:39] [DEBUG]: Received response with following cf-rays: [64af0d127ec1fd2e-SYD]
+[13:16:39] [DEBUG]: Received response with following cf-rays: [64af0d127ca062ea-SYD]
+[13:16:43] [DEBUG]: Received response with following cf-rays: [64af0d2c1bd8fd2e-SYD]
+[13:16:45] [DEBUG]: Removed 3 expired buckets
+[13:17:00] [DEBUG]: Received response with following cf-rays: [64af0d91bf2362b9-SYD]
+[13:17:04] [DEBUG]: Received response with following cf-rays: [64af0dac0d8a62b9-SYD]
+[13:17:15] [DEBUG]: Removed 1 expired buckets
+[13:20:18] [DEBUG]: Received response with following cf-rays: [64af126c3882fd52-SYD]
+[13:20:45] [DEBUG]: Removed 1 expired buckets
+[13:22:52] [DEBUG]: Received response with following cf-rays: [64af162f686016b9-SYD]
+[13:23:15] [DEBUG]: Removed 1 expired buckets
+[13:28:48] [DEBUG]: Received response with following cf-rays: [64af1edc8a3116a9-SYD]
+[13:28:48] [DEBUG]: Received response with following cf-rays: [64af1eddacd916a9-SYD]
+[13:28:48] [INFO]: Login Successful!
+[13:28:48] [DEBUG]: Creating new worker handle for shard pool 0
+[13:28:48] [DEBUG]: Running worker
+[13:28:48] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:28:48] [INFO]: Connected to WebSocket
+[13:28:48] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:28:48] [DEBUG]: Sending Identify-packet...
+[13:28:48] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:28:49] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620271728528}}
+[13:28:49] [DEBUG]: Setting incomplete count to 1
+[13:28:49] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:28:49] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:28:49] [INFO]: Finished Loading!
+[13:28:49] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:28:49] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-2658836378775893886"}
+[13:28:50] [DEBUG]: Received response with following cf-rays: [64af1ee7791e16c1-SYD]
+[13:28:50] [DEBUG]: Received response with following cf-rays: [64af1ee75ab216a9-SYD]
+[13:28:50] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:28:50] [DEBUG]: Received response with following cf-rays: [64af1ee96d6316c1-SYD]
+[13:29:17] [DEBUG]: Removed 6 expired buckets
+[13:29:30] [ERROR]: One of the EventListeners had an uncaught exception
+java.lang.IllegalStateException: Cannot get id for emoji reaction
+	at net.dv8tion.jda.api.entities.MessageReaction$ReactionEmote.getIdLong(MessageReaction.java:528)
+	at net.dv8tion.jda.api.entities.ISnowflake.getId(ISnowflake.java:39)
+	at com.zilleyy.jda.listener.ReactionListener.onGuildMessageReactionAdd(ReactionListener.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:149)
+	at net.dv8tion.jda.internal.handle.MessageReactionHandler.onAdd(MessageReactionHandler.java:171)
+	at net.dv8tion.jda.internal.handle.MessageReactionHandler.handleInternally(MessageReactionHandler.java:159)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:956)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:843)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:821)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:994)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[13:30:22] [DEBUG]: Received response with following cf-rays: [64af212bde4262d2-SYD]
+[13:30:23] [DEBUG]: Received response with following cf-rays: [64af212cf87d62d2-SYD]
+[13:30:23] [INFO]: Login Successful!
+[13:30:23] [DEBUG]: Creating new worker handle for shard pool 0
+[13:30:23] [DEBUG]: Running worker
+[13:30:23] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:30:23] [INFO]: Connected to WebSocket
+[13:30:23] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:30:23] [DEBUG]: Sending Identify-packet...
+[13:30:23] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:30:23] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620271823153}}
+[13:30:23] [DEBUG]: Setting incomplete count to 1
+[13:30:23] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:30:23] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:30:23] [INFO]: Finished Loading!
+[13:30:23] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:30:24] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"248934139254064628"}
+[13:30:24] [DEBUG]: Received response with following cf-rays: [64af2136aad462d2-SYD]
+[13:30:24] [DEBUG]: Received response with following cf-rays: [64af2136e8ce62b9-SYD]
+[13:30:25] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:30:25] [DEBUG]: Received response with following cf-rays: [64af2138df0162d2-SYD]
+[13:30:30] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:30:30] [DEBUG]: Received response with following cf-rays: [64af215d581e62d2-SYD]
+[13:30:52] [DEBUG]: Removed 8 expired buckets
+[13:32:57] [DEBUG]: Received response with following cf-rays: [64af24f4897462bf-SYD]
+[13:32:58] [DEBUG]: Received response with following cf-rays: [64af24f5bb7f62bf-SYD]
+[13:32:58] [INFO]: Login Successful!
+[13:32:58] [DEBUG]: Creating new worker handle for shard pool 0
+[13:32:58] [DEBUG]: Running worker
+[13:32:58] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:32:58] [INFO]: Connected to WebSocket
+[13:32:58] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:32:58] [DEBUG]: Sending Identify-packet...
+[13:32:58] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:32:58] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620271978162}}
+[13:32:58] [DEBUG]: Setting incomplete count to 1
+[13:32:58] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:32:58] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:32:58] [INFO]: Finished Loading!
+[13:32:58] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:32:59] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-5389477714818212372"}
+[13:32:59] [DEBUG]: Received response with following cf-rays: [64af24ffe89162bf-SYD]
+[13:32:59] [DEBUG]: Received response with following cf-rays: [64af250019ba2b0e-SYD]
+[13:33:00] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:33:00] [DEBUG]: Received response with following cf-rays: [64af25021cd562bf-SYD]
+[13:33:27] [DEBUG]: Removed 6 expired buckets
+[13:34:03] [DEBUG]: Caching bucket hash DELETE/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:34:03] [DEBUG]: Received response with following cf-rays: [64af268dbbe862b9-SYD]
+[13:34:03] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:34:03] [DEBUG]: Received response with following cf-rays: [64af268dbc57fe64-SYD]
+[13:34:05] [DEBUG]: Received response with following cf-rays: [64af269d6afc62b9-SYD]
+[13:34:06] [DEBUG]: Received response with following cf-rays: [64af269efeea62b9-SYD]
+[13:34:10] [DEBUG]: Received response with following cf-rays: [64af26bcbbfb62b9-SYD]
+[13:34:11] [DEBUG]: Received response with following cf-rays: [64af26be4f3f62b9-SYD]
+[13:34:13] [DEBUG]: Received response with following cf-rays: [64af26cc0b0762b9-SYD]
+[13:34:13] [DEBUG]: Received response with following cf-rays: [64af26cd9dfd62b9-SYD]
+[13:34:27] [DEBUG]: Removed 3 expired buckets
+[13:48:49] [DEBUG]: Received response with following cf-rays: [64af3c2f3a06fd32-SYD]
+[13:48:49] [DEBUG]: Received response with following cf-rays: [64af3c30fc85fd32-SYD]
+[13:48:49] [INFO]: Login Successful!
+[13:48:49] [DEBUG]: Creating new worker handle for shard pool 0
+[13:48:49] [DEBUG]: Running worker
+[13:48:49] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:48:50] [INFO]: Connected to WebSocket
+[13:48:50] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:48:50] [DEBUG]: Sending Identify-packet...
+[13:48:50] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:48:50] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620272929698}}
+[13:48:50] [DEBUG]: Setting incomplete count to 1
+[13:48:50] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:48:50] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:48:50] [INFO]: Finished Loading!
+[13:48:50] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:48:50] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-1543457279241469496"}
+[13:48:51] [DEBUG]: Received response with following cf-rays: [64af3c3b6ca7fd32-SYD]
+[13:48:51] [DEBUG]: Received response with following cf-rays: [64af3c3b99f462d3-SYD]
+[13:48:51] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:48:51] [DEBUG]: Received response with following cf-rays: [64af3c3d7f9efd32-SYD]
+[13:49:18] [DEBUG]: Removed 6 expired buckets
+[13:50:17] [DEBUG]: Received response with following cf-rays: [64af3e56ad65fd3e-SYD]
+[13:50:17] [DEBUG]: Received response with following cf-rays: [64af3e57cfb0fd3e-SYD]
+[13:50:17] [INFO]: Login Successful!
+[13:50:17] [DEBUG]: Creating new worker handle for shard pool 0
+[13:50:17] [DEBUG]: Running worker
+[13:50:17] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:50:18] [INFO]: Connected to WebSocket
+[13:50:18] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:50:18] [DEBUG]: Sending Identify-packet...
+[13:50:18] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:50:18] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273017831}}
+[13:50:18] [DEBUG]: Setting incomplete count to 1
+[13:50:18] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:50:18] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:50:18] [INFO]: Finished Loading!
+[13:50:18] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:50:18] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-2423488522243086498"}
+[13:50:19] [DEBUG]: Received response with following cf-rays: [64af3e61b892fd3e-SYD]
+[13:50:19] [DEBUG]: Received response with following cf-rays: [64af3e61ea7616c1-SYD]
+[13:50:19] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:50:19] [DEBUG]: Received response with following cf-rays: [64af3e642cbefd3e-SYD]
+[13:50:21] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:50:21] [DEBUG]: Received response with following cf-rays: [64af3e71ed7cfd3e-SYD]
+[13:50:32] [DEBUG]: Received response with following cf-rays: [64af3eb3afebd699-SYD]
+[13:50:32] [DEBUG]: Caching bucket hash DELETE/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[13:50:32] [DEBUG]: Received response with following cf-rays: [64af3eb3aaf316d1-SYD]
+[13:50:37] [DEBUG]: Received response with following cf-rays: [64af3ed5c80916d1-SYD]
+[13:50:38] [DEBUG]: Received response with following cf-rays: [64af3ed78b6716d1-SYD]
+[13:50:40] [DEBUG]: Received response with following cf-rays: [64af3ee88caa16d1-SYD]
+[13:50:41] [DEBUG]: Received response with following cf-rays: [64af3eea3ffd16d1-SYD]
+[13:50:43] [DEBUG]: Received response with following cf-rays: [64af3ef75dd216d1-SYD]
+[13:50:43] [DEBUG]: Received response with following cf-rays: [64af3ef939af16d1-SYD]
+[13:50:47] [DEBUG]: Removed 8 expired buckets
+[13:51:07] [DEBUG]: Received response with following cf-rays: [64af3f8e7893fd36-SYD]
+[13:51:07] [DEBUG]: Received response with following cf-rays: [64af3f902b2bfd36-SYD]
+[13:51:09] [DEBUG]: Received response with following cf-rays: [64af3f9d3a53fd36-SYD]
+[13:51:10] [DEBUG]: Received response with following cf-rays: [64af3f9efd71fd36-SYD]
+[13:51:19] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:51:19] [INFO]: Reflections took 69 ms to scan 1 urls, producing 5 keys and 17 values 
+[13:51:19] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:51:19] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:51:19] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:51:19] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:51:20] [DEBUG]: Received response with following cf-rays: [64af3fdc7abafd36-SYD]
+[13:51:20] [DEBUG]: Received response with following cf-rays: [64af3fdeae55fd36-SYD]
+[13:51:20] [DEBUG]: Received response with following cf-rays: [64af3fe0996cfd36-SYD]
+[13:51:21] [DEBUG]: Received response with following cf-rays: [64af3fe2ad34fd36-SYD]
+[13:51:21] [DEBUG]: Received response with following cf-rays: [64af3fe46fe5fd36-SYD]
+[13:51:25] [DEBUG]: Received response with following cf-rays: [64af3ffdfa0cfd36-SYD]
+[13:51:25] [DEBUG]: Received response with following cf-rays: [64af3ffffd89fd36-SYD]
+[13:51:25] [DEBUG]: Received response with following cf-rays: [64af40019fcafd36-SYD]
+[13:51:26] [DEBUG]: Received response with following cf-rays: [64af40038ab2fd36-SYD]
+[13:51:26] [DEBUG]: Received response with following cf-rays: [64af4003bdf6d695-SYD]
+[13:51:47] [DEBUG]: Removed 3 expired buckets
+[13:51:55] [DEBUG]: Received response with following cf-rays: [64af40bd093efd4e-SYD]
+[13:52:00] [DEBUG]: Received response with following cf-rays: [64af40d69d91fd4e-SYD]
+[13:52:01] [DEBUG]: Received response with following cf-rays: [64af40dd283cfd4e-SYD]
+[13:52:05] [DEBUG]: Received response with following cf-rays: [64af40f719e6fd4e-SYD]
+[13:52:17] [DEBUG]: Removed 2 expired buckets
+[13:54:32] [DEBUG]: Received response with following cf-rays: [64af4493188516c1-SYD]
+[13:54:33] [DEBUG]: Received response with following cf-rays: [64af44942aa716c1-SYD]
+[13:54:33] [INFO]: Login Successful!
+[13:54:33] [DEBUG]: Creating new worker handle for shard pool 0
+[13:54:33] [DEBUG]: Running worker
+[13:54:33] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:54:33] [INFO]: Connected to WebSocket
+[13:54:33] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:54:33] [DEBUG]: Sending Identify-packet...
+[13:54:33] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:54:33] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273273259}}
+[13:54:33] [DEBUG]: Setting incomplete count to 1
+[13:54:33] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:54:33] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:54:33] [INFO]: Finished Loading!
+[13:54:33] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:54:34] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-2831020244912076722"}
+[13:54:34] [DEBUG]: Received response with following cf-rays: [64af449dde7016c1-SYD]
+[13:54:34] [DEBUG]: Received response with following cf-rays: [64af449e0eb162d2-SYD]
+[13:54:35] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:54:35] [DEBUG]: Received response with following cf-rays: [64af44a07b8b16c1-SYD]
+[13:54:37] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:54:37] [INFO]: Reflections took 77 ms to scan 1 urls, producing 5 keys and 17 values 
+[13:54:37] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:54:37] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:54:37] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:54:37] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:54:37] [DEBUG]: Received response with following cf-rays: [64af44aef93b16c1-SYD]
+[13:54:37] [DEBUG]: Received response with following cf-rays: [64af44b11dcc16c1-SYD]
+[13:54:38] [DEBUG]: Received response with following cf-rays: [64af44b32a5916c1-SYD]
+[13:54:38] [DEBUG]: Received response with following cf-rays: [64af44b4ee1616c1-SYD]
+[13:54:38] [DEBUG]: Received response with following cf-rays: [64af44b6c9f316c1-SYD]
+[13:54:42] [DEBUG]: Received response with following cf-rays: [64af44d09e3c16c1-SYD]
+[13:54:43] [DEBUG]: Received response with following cf-rays: [64af44d2ba6b16c1-SYD]
+[13:54:43] [DEBUG]: Received response with following cf-rays: [64af44d47d7816c1-SYD]
+[13:54:43] [DEBUG]: Received response with following cf-rays: [64af44d6b97216c1-SYD]
+[13:54:43] [DEBUG]: Received response with following cf-rays: [64af44d6befa62d2-SYD]
+[13:55:02] [DEBUG]: Removed 8 expired buckets
+[13:56:07] [DEBUG]: Received response with following cf-rays: [64af46e29a2efe70-SYD]
+[13:56:32] [DEBUG]: Removed 1 expired buckets
+[13:57:49] [DEBUG]: Received response with following cf-rays: [64af4961997462c5-SYD]
+[13:57:50] [DEBUG]: Received response with following cf-rays: [64af4962ab6962c5-SYD]
+[13:57:50] [INFO]: Login Successful!
+[13:57:50] [DEBUG]: Creating new worker handle for shard pool 0
+[13:57:50] [DEBUG]: Running worker
+[13:57:50] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:57:50] [INFO]: Connected to WebSocket
+[13:57:50] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:57:50] [DEBUG]: Sending Identify-packet...
+[13:57:50] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:57:50] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273470129}}
+[13:57:50] [DEBUG]: Setting incomplete count to 1
+[13:57:50] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:57:50] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:57:50] [INFO]: Finished Loading!
+[13:57:50] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:57:51] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"6841596946794968038"}
+[13:57:51] [DEBUG]: Received response with following cf-rays: [64af496c5f4862c5-SYD]
+[13:57:51] [DEBUG]: Received response with following cf-rays: [64af496c8cacda4a-SYD]
+[13:57:52] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:57:52] [DEBUG]: Received response with following cf-rays: [64af496e7b8f62c5-SYD]
+[13:58:19] [DEBUG]: Removed 6 expired buckets
+[13:58:24] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:58:24] [INFO]: Reflections took 78 ms to scan 1 urls, producing 5 keys and 17 values 
+[13:58:24] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:58:24] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:58:24] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:58:24] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:58:24] [DEBUG]: Received response with following cf-rays: [64af4a3c0b34fd36-SYD]
+[13:58:25] [DEBUG]: Received response with following cf-rays: [64af4a3e1e55fd36-SYD]
+[13:58:25] [DEBUG]: Received response with following cf-rays: [64af4a405a69fd36-SYD]
+[13:58:25] [DEBUG]: Received response with following cf-rays: [64af4a421da8fd36-SYD]
+[13:58:26] [DEBUG]: Received response with following cf-rays: [64af4a43cfdbfd36-SYD]
+[13:58:30] [DEBUG]: Received response with following cf-rays: [64af4a5d4885fd36-SYD]
+[13:58:30] [DEBUG]: Received response with following cf-rays: [64af4a5f3ba2fd36-SYD]
+[13:58:30] [DEBUG]: Received response with following cf-rays: [64af4a614eb2fd36-SYD]
+[13:58:31] [DEBUG]: Received response with following cf-rays: [64af4a630a1ffd36-SYD]
+[13:58:31] [DEBUG]: Received response with following cf-rays: [64af4a633aa516e1-SYD]
+[13:58:49] [DEBUG]: Removed 2 expired buckets
+[13:59:28] [DEBUG]: Received response with following cf-rays: [64af4bcbbf73fe60-SYD]
+[13:59:29] [DEBUG]: Received response with following cf-rays: [64af4bccd934fe60-SYD]
+[13:59:29] [INFO]: Login Successful!
+[13:59:29] [DEBUG]: Creating new worker handle for shard pool 0
+[13:59:29] [DEBUG]: Running worker
+[13:59:29] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[13:59:29] [INFO]: Connected to WebSocket
+[13:59:29] [DEBUG]: Connected with gateway intents: 11011011001111
+[13:59:29] [DEBUG]: Sending Identify-packet...
+[13:59:29] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[13:59:29] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273569079}}
+[13:59:29] [DEBUG]: Setting incomplete count to 1
+[13:59:29] [DEBUG]: Starting 75 second timeout for 1 guilds
+[13:59:29] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[13:59:29] [INFO]: Finished Loading!
+[13:59:29] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[13:59:30] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"5577767179485777128"}
+[13:59:30] [DEBUG]: Received response with following cf-rays: [64af4bd78994fe60-SYD]
+[13:59:30] [DEBUG]: Received response with following cf-rays: [64af4bd7afde16b5-SYD]
+[13:59:31] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[13:59:31] [DEBUG]: Received response with following cf-rays: [64af4bd9bc77fe60-SYD]
+[13:59:36] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[13:59:36] [INFO]: Reflections took 72 ms to scan 1 urls, producing 5 keys and 17 values 
+[13:59:36] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[13:59:36] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[13:59:36] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[13:59:36] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[13:59:36] [DEBUG]: Received response with following cf-rays: [64af4bfb1c84fe60-SYD]
+[13:59:36] [DEBUG]: Received response with following cf-rays: [64af4bfccf17fe60-SYD]
+[13:59:37] [DEBUG]: Received response with following cf-rays: [64af4bfe697bfe60-SYD]
+[13:59:37] [DEBUG]: Received response with following cf-rays: [64af4c00cd12fe60-SYD]
+[13:59:37] [DEBUG]: Received response with following cf-rays: [64af4c02b805fe60-SYD]
+[13:59:41] [DEBUG]: Received response with following cf-rays: [64af4c1c2ffbfe60-SYD]
+[13:59:42] [DEBUG]: Received response with following cf-rays: [64af4c1e0a78fe60-SYD]
+[13:59:42] [DEBUG]: Received response with following cf-rays: [64af4c200d50fe60-SYD]
+[13:59:42] [DEBUG]: Received response with following cf-rays: [64af4c21bf6dfe60-SYD]
+[13:59:42] [DEBUG]: Received response with following cf-rays: [64af4c21eef6fe70-SYD]
+[13:59:58] [DEBUG]: Removed 8 expired buckets
+[14:01:43] [DEBUG]: Received response with following cf-rays: [64af4f186ed762b9-SYD]
+[14:01:44] [DEBUG]: Received response with following cf-rays: [64af4f19999762b9-SYD]
+[14:01:44] [INFO]: Login Successful!
+[14:01:44] [DEBUG]: Creating new worker handle for shard pool 0
+[14:01:44] [DEBUG]: Running worker
+[14:01:44] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[14:01:44] [INFO]: Connected to WebSocket
+[14:01:44] [DEBUG]: Connected with gateway intents: 11011011001111
+[14:01:44] [DEBUG]: Sending Identify-packet...
+[14:01:44] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[14:01:44] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273704199}}
+[14:01:44] [DEBUG]: Setting incomplete count to 1
+[14:01:44] [DEBUG]: Starting 75 second timeout for 1 guilds
+[14:01:44] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[14:01:44] [INFO]: Finished Loading!
+[14:01:44] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[14:01:45] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"7285014121307021404"}
+[14:01:45] [DEBUG]: Received response with following cf-rays: [64af4f233ebf62b9-SYD]
+[14:01:45] [DEBUG]: Received response with following cf-rays: [64af4f236e8c16c9-SYD]
+[14:01:46] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[14:01:46] [DEBUG]: Received response with following cf-rays: [64af4f256acf62b9-SYD]
+[14:01:58] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[14:01:58] [INFO]: Reflections took 77 ms to scan 1 urls, producing 5 keys and 17 values 
+[14:01:58] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[14:01:58] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[14:01:58] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[14:01:58] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[14:01:58] [DEBUG]: Received response with following cf-rays: [64af4f730bd416dd-SYD]
+[14:01:58] [DEBUG]: Received response with following cf-rays: [64af4f74ffe516dd-SYD]
+[14:01:59] [DEBUG]: Received response with following cf-rays: [64af4f76cb4216dd-SYD]
+[14:01:59] [DEBUG]: Received response with following cf-rays: [64af4f78bf6816dd-SYD]
+[14:01:59] [DEBUG]: Received response with following cf-rays: [64af4f7a5a6d16dd-SYD]
+[14:02:03] [DEBUG]: Received response with following cf-rays: [64af4f942bf716dd-SYD]
+[14:02:04] [DEBUG]: Received response with following cf-rays: [64af4f95ff1816dd-SYD]
+[14:02:04] [DEBUG]: Received response with following cf-rays: [64af4f99bf4c16dd-SYD]
+[14:02:05] [DEBUG]: Received response with following cf-rays: [64af4f9bdc0b16dd-SYD]
+[14:02:05] [DEBUG]: Received response with following cf-rays: [64af4f9c1de462d2-SYD]
+[14:02:13] [DEBUG]: Removed 8 expired buckets
+[14:04:45] [DEBUG]: Received response with following cf-rays: [64af53887de9fd3a-SYD]
+[14:04:45] [DEBUG]: Received response with following cf-rays: [64af5389a805fd3a-SYD]
+[14:04:45] [INFO]: Login Successful!
+[14:04:45] [DEBUG]: Creating new worker handle for shard pool 0
+[14:04:45] [DEBUG]: Running worker
+[14:04:45] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[14:04:46] [INFO]: Connected to WebSocket
+[14:04:46] [DEBUG]: Connected with gateway intents: 11011011001111
+[14:04:46] [DEBUG]: Sending Identify-packet...
+[14:04:46] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[14:04:46] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620273885989}}
+[14:04:46] [DEBUG]: Setting incomplete count to 1
+[14:04:46] [DEBUG]: Starting 75 second timeout for 1 guilds
+[14:04:46] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[14:04:46] [INFO]: Finished Loading!
+[14:04:46] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[14:04:47] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-3150292950283587626"}
+[14:04:54] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[14:04:54] [INFO]: Reflections took 50 ms to scan 1 urls, producing 5 keys and 17 values 
+[14:04:54] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[14:04:54] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[14:04:54] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[14:04:54] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[14:04:55] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[14:04:55] [DEBUG]: Received response with following cf-rays: [64af53c34e9ffd3a-SYD]
+[14:05:01] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[14:05:01] [DEBUG]: Received response with following cf-rays: [64af53e7dd59fd3a-SYD]
+[14:05:01] [DEBUG]: Received response with following cf-rays: [64af53e81967fd46-SYD]
+[14:05:01] [DEBUG]: Received response with following cf-rays: [64af53e818c4fe68-SYD]
+[14:05:02] [DEBUG]: Received response with following cf-rays: [64af53ea696cfd3a-SYD]
+[14:05:06] [DEBUG]: Received response with following cf-rays: [64af54080ac8fd3a-SYD]
+[14:05:15] [DEBUG]: Removed 10 expired buckets
+[14:06:25] [DEBUG]: Received response with following cf-rays: [64af55f7e8d762d2-SYD]
+[14:06:45] [DEBUG]: Removed 1 expired buckets
+[14:09:02] [DEBUG]: Received response with following cf-rays: [64af59ce7a8562d2-SYD]
+[14:09:10] [DEBUG]: Received response with following cf-rays: [64af5a008f0e62d2-SYD]
+[14:09:23] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[14:09:23] [DEBUG]: Received response with following cf-rays: [64af5a511af762d8-SYD]
+[14:09:23] [DEBUG]: Caching bucket hash DELETE/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[14:09:23] [DEBUG]: Received response with following cf-rays: [64af5a512b102b0e-SYD]
+[14:09:23] [DEBUG]: Received response with following cf-rays: [64af5a512fb516a9-SYD]
+[14:09:45] [DEBUG]: Removed 4 expired buckets
+[14:09:45] [DEBUG]: Received response with following cf-rays: [64af5adacff416b9-SYD]
+[14:09:56] [DEBUG]: Received response with following cf-rays: [64af5b213fadfd36-SYD]
+[14:10:15] [DEBUG]: Removed 1 expired buckets
+[14:11:41] [DEBUG]: Received response with following cf-rays: [64af5daeac3a16c5-SYD]
+[14:11:41] [DEBUG]: Received response with following cf-rays: [64af5dafde6f16c5-SYD]
+[14:11:41] [INFO]: Login Successful!
+[14:11:41] [DEBUG]: Creating new worker handle for shard pool 0
+[14:11:41] [DEBUG]: Running worker
+[14:11:41] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[14:11:41] [INFO]: Connected to WebSocket
+[14:11:41] [DEBUG]: Connected with gateway intents: 11011011001111
+[14:11:41] [DEBUG]: Sending Identify-packet...
+[14:11:42] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[14:11:42] [DEBUG]: Sending normal message {"op":3,"d":{"game":{"name":"Messages in channels","type":3},"afk":false,"status":"online","since":1620274301690}}
+[14:11:42] [DEBUG]: Setting incomplete count to 1
+[14:11:42] [DEBUG]: Starting 75 second timeout for 1 guilds
+[14:11:42] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[14:11:42] [INFO]: Finished Loading!
+[14:11:42] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0
+[14:11:42] [DEBUG]: Sending chunk/sync request {"presences":false,"query":"","guild_id":"824563865668026369","limit":0,"nonce":"-4351758800662617824"}
+[14:11:50] [DEBUG]: going to scan these urls: [file:/D:/DEVELOPMENT%20CRAP/IntelliJ%20Projects/zJDA/target/classes/]
+[14:11:50] [INFO]: Reflections took 50 ms to scan 1 urls, producing 5 keys and 17 values 
+[14:11:50] [DEBUG]: expanded subtype java.lang.Comparable -> java.lang.Enum
+[14:11:50] [DEBUG]: expanded subtype java.io.Serializable -> java.lang.Enum
+[14:11:50] [DEBUG]: expanded subtype java.lang.Runnable -> java.lang.Thread
+[14:11:50] [DEBUG]: expanded subtype net.dv8tion.jda.api.hooks.EventListener -> net.dv8tion.jda.api.hooks.ListenerAdapter
+[14:11:51] [DEBUG]: Caching bucket hash POST/channels/{channel_id}/messages -> a06de0de4a08126315431cc0c55ee3dc
+[14:11:51] [DEBUG]: Received response with following cf-rays: [64af5deb39eb16c5-SYD]
+[14:12:11] [DEBUG]: Removed 4 expired buckets
+[14:12:30] [DEBUG]: Received response with following cf-rays: [64af5ee1a86216b1-SYD]
+[14:12:41] [DEBUG]: Removed 1 expired buckets
+[14:12:50] [DEBUG]: Caching bucket hash PUT/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[14:12:50] [DEBUG]: Received response with following cf-rays: [64af5f613e1362e5-SYD]
+[14:12:51] [DEBUG]: Caching bucket hash DELETE/guilds/{guild_id}/members/{user_id}/roles/{role_id} -> b0bb9027ff6ae0c9619c2719f4a24de5
+[14:12:51] [DEBUG]: Received response with following cf-rays: [64af5f614a0e4f46-SYD]
+[14:12:51] [DEBUG]: Received response with following cf-rays: [64af5f614fa0fe64-SYD]
+[14:13:05] [DEBUG]: Received response with following cf-rays: [64af5fbc1c3916e1-SYD]
+[14:13:05] [DEBUG]: Received response with following cf-rays: [64af5fbc1f50fd36-SYD]
+[14:13:05] [DEBUG]: Received response with following cf-rays: [64af5fbdb80216e1-SYD]
+[14:13:11] [DEBUG]: Removed 3 expired buckets
+[14:13:30] [DEBUG]: Received response with following cf-rays: [64af6055fdf6fd26-SYD]
+[14:13:39] [DEBUG]: Received response with following cf-rays: [64af608e9fc2fd26-SYD]
+[14:13:39] [DEBUG]: Received response with following cf-rays: [64af608ebd0d62d8-SYD]
+[14:13:41] [DEBUG]: Removed 5 expired buckets
+[14:13:41] [DEBUG]: Received response with following cf-rays: [64af6090daa3fd26-SYD]
+[14:13:45] [DEBUG]: Caching bucket hash DELETE/channels/{channel_id}/messages/{message_id} -> da101873bd9ceb21138638aa25f33cb1
+[14:13:45] [DEBUG]: Received response with following cf-rays: [64af60b2ee20fd26-SYD]
+[14:13:54] [DEBUG]: Received response with following cf-rays: [64af60edcc78fd26-SYD]
+[14:14:08] [DEBUG]: Received response with following cf-rays: [64af6147fa6afd56-SYD]
+[14:14:09] [DEBUG]: Received response with following cf-rays: [64af6147fa3062d3-SYD]
+[14:14:10] [DEBUG]: Received response with following cf-rays: [64af614a1d81fd56-SYD]
+[14:14:11] [DEBUG]: Removed 5 expired buckets
+[14:14:14] [DEBUG]: Received response with following cf-rays: [64af6168ede262d3-SYD]
+[14:14:33] [DEBUG]: Received response with following cf-rays: [64af61e0c8ccfd46-SYD]
+[14:14:37] [DEBUG]: Received response with following cf-rays: [64af61fcac06fd46-SYD]
+[14:14:37] [DEBUG]: Received response with following cf-rays: [64af61fccbd462de-SYD]
+[14:14:38] [DEBUG]: Received response with following cf-rays: [64af61febef5fd46-SYD]
+[14:14:41] [DEBUG]: Removed 2 expired buckets
+[14:14:42] [DEBUG]: Received response with following cf-rays: [64af6217d99f62de-SYD]
+[14:14:42] [DEBUG]: Received response with following cf-rays: [64af6217dbc3fd46-SYD]
+[14:14:43] [DEBUG]: Received response with following cf-rays: [64af6219dd1a62de-SYD]
+[14:14:46] [DEBUG]: Received response with following cf-rays: [64af62353f5afd46-SYD]
+[14:14:49] [DEBUG]: Received response with following cf-rays: [64af62486d12fd46-SYD]
+[14:14:53] [DEBUG]: Received response with following cf-rays: [64af6260fcc2fd46-SYD]
+[14:14:53] [DEBUG]: Received response with following cf-rays: [64af62612a1a16bd-SYD]
+[14:14:54] [DEBUG]: Received response with following cf-rays: [64af6262afcafd46-SYD]
+[14:15:11] [DEBUG]: Removed 5 expired buckets
+[18:08:47] [DEBUG]: Got Reconnect request (OP 7). Closing connection now...
+[18:08:49] [DEBUG]: Got disconnected from WebSocket (Code: 4900). Attempting to resume session
+[18:08:49] [DEBUG]: Attempting to reconnect in 0s
+[18:08:49] [DEBUG]: Attempting to reconnect!
+[18:08:49] [DEBUG]: Connected to WebSocket
+[18:08:49] [DEBUG]: Sending Resume-packet...
+[18:08:49] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[18:08:49] [DEBUG]: Successfully resumed Session!
+[19:46:24] [DEBUG]: Got Reconnect request (OP 7). Closing connection now...
+[19:46:24] [DEBUG]: Got disconnected from WebSocket (Code: 4900). Attempting to resume session
+[19:46:24] [DEBUG]: Attempting to reconnect in 0s
+[19:46:24] [DEBUG]: Attempting to reconnect!
+[19:46:25] [DEBUG]: Connected to WebSocket
+[19:46:25] [DEBUG]: Sending Resume-packet...
+[19:46:25] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[19:46:25] [DEBUG]: Successfully resumed Session!
+[21:11:15] [DEBUG]: Encountered I/O error
+com.neovisionaries.ws.client.WebSocketException: Flushing frames to the server failed: Connection closed by remote host
+	at com.neovisionaries.ws.client.WritingThread.doFlush(WritingThread.java:434)
+	at com.neovisionaries.ws.client.WritingThread.sendFrames(WritingThread.java:384)
+	at com.neovisionaries.ws.client.WritingThread.main(WritingThread.java:108)
+	at com.neovisionaries.ws.client.WritingThread.runMain(WritingThread.java:55)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1547)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:71)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at com.neovisionaries.ws.client.WritingThread.flush(WritingThread.java:271)
+	at com.neovisionaries.ws.client.WritingThread.doFlush(WritingThread.java:422)
+	... 4 more
+[21:11:15] [DEBUG]: Encountered I/O error
+com.neovisionaries.ws.client.WebSocketException: Flushing frames to the server failed: Connection closed by remote host
+	at com.neovisionaries.ws.client.WritingThread.doFlush(WritingThread.java:434)
+	at com.neovisionaries.ws.client.WritingThread.sendFrames(WritingThread.java:384)
+	at com.neovisionaries.ws.client.WritingThread.main(WritingThread.java:120)
+	at com.neovisionaries.ws.client.WritingThread.runMain(WritingThread.java:55)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1547)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:71)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at com.neovisionaries.ws.client.WritingThread.flush(WritingThread.java:271)
+	at com.neovisionaries.ws.client.WritingThread.doFlush(WritingThread.java:422)
+	... 4 more
+[21:11:15] [DEBUG]: Got disconnected from WebSocket (Code: 1002). Attempting to resume session
+[21:11:15] [DEBUG]: Attempting to reconnect in 0s
+[21:11:15] [DEBUG]: Attempting to reconnect!
+[21:11:15] [DEBUG]: Connected to WebSocket
+[21:11:15] [DEBUG]: Sending Resume-packet...
+[21:11:15] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[21:11:15] [DEBUG]: Successfully resumed Session!
+[22:04:15] [DEBUG]: Got Reconnect request (OP 7). Closing connection now...
+[22:04:15] [DEBUG]: Got disconnected from WebSocket (Code: 4900). Attempting to resume session
+[22:04:15] [DEBUG]: Attempting to reconnect in 0s
+[22:04:15] [DEBUG]: Attempting to reconnect!
+[22:04:15] [DEBUG]: Connected to WebSocket
+[22:04:15] [DEBUG]: Sending Resume-packet...
+[22:04:15] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[22:04:16] [DEBUG]: Successfully resumed Session!
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Hit the WebSocket RateLimit! This can be caused by too many presence or voice status updates (connect/disconnect/mute/deaf). Regular: 0 Voice: 0 Chunking: 0
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:23] [WARN]: Missed 2 heartbeats! Trying to reconnect...
+[09:42:33] [DEBUG]: Got disconnected from WebSocket (Code: 4900). Attempting to resume session
+[09:42:33] [DEBUG]: Attempting to reconnect in 0s
+[09:42:33] [DEBUG]: Attempting to reconnect!
+[09:42:34] [DEBUG]: Connected to WebSocket
+[09:42:34] [DEBUG]: Sending Resume-packet...
+[09:42:34] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[09:42:34] [DEBUG]: Got Invalidate request (OP 9). Invalidating...
+[09:42:34] [WARN]: Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[09:42:34] [DEBUG]: Running worker
+[09:42:34] [DEBUG]: Running connect node for shard Shard [0 / 1]
+[09:42:34] [DEBUG]: Queue is attempting to reconnect a shard... Shard: [0 / 1] Attempting to reconnect in 2s
+[09:42:36] [DEBUG]: Attempting to reconnect!
+[09:42:37] [INFO]: Connected to WebSocket
+[09:42:37] [DEBUG]: Got HELLO packet (OP 10). Initializing keep-alive.
+[09:42:37] [DEBUG]: Connected with gateway intents: 11011011001111
+[09:42:37] [DEBUG]: Sending Identify-packet...
+[09:42:37] [DEBUG]: Setting incomplete count to 1
+[09:42:37] [DEBUG]: Starting 75 second timeout for 1 guilds
+[09:42:37] [DEBUG]: Finished setup for guild with a null owner. GuildId: 824563865668026369 OwnerId: 307428508110422016
+[09:42:37] [INFO]: Finished (Re)Loading!
+[09:42:37] [DEBUG]: Finished setup for guild 824563865668026369 firing cached events 0

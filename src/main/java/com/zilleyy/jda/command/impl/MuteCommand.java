@@ -4,9 +4,11 @@ import com.zilleyy.jda.command.Command;
 import com.zilleyy.jda.command.CommandInformation;
 import com.zilleyy.jda.command.CommandScope;
 import com.zilleyy.jda.command.ExecutionStatus;
-import com.zilleyy.jda.console.ConsoleLogger;
+import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.Role;
+
+import java.util.List;
 
 /**
  * Author: Zilleyy
@@ -22,12 +24,12 @@ public class MuteCommand extends Command {
     @Override
     public ExecutionStatus onCommand(CommandInformation information) {
         if(!information.hasArguments()) return ExecutionStatus.INCORRECT_ARGUMENTS;
+        Member member = information.getGuild().getMemberByTag(information.getArgs()[0]);
+        if(member == null) return ExecutionStatus.INVALID_USER;
+        information.getGuild().addRoleToMember(member, this.getMuteRole(information.getGuild())).queue();
+        information.getGuild().removeRoleFromMember(member, information.getGuild().getRolesByName("Verified", false).get(0)).queue();
 
-        for(Member member : information.getMessage().getGuild().getMembers()) {
-
-        }
-        ConsoleLogger.log(information.getArgs()[0]);
-
+        information.getMessage().reply("Muted user: " + member.getAsMention()).queue();
         return ExecutionStatus.GENERIC_SUCCESS;
     }
 
@@ -35,8 +37,14 @@ public class MuteCommand extends Command {
      * If it exists already, then find it and return it, otherwise create it and return it.
      * @return the mute role.
      */
-    private Role getMuteRole() {
-        return null;
+    private Role getMuteRole(Guild guild) {
+        List<Role> roles = guild.getRolesByName("Muted", false);
+
+        if(roles.size() > 0) {
+            return roles.get(0);
+        } else {
+            return null;
+        }
     }
 
 }

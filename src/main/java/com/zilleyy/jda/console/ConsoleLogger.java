@@ -18,6 +18,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 public class ConsoleLogger implements Runnable {
 
+    private static boolean enabled = false;
+
     private Thread thread;
     private static ConsoleLogger instance;
 
@@ -34,6 +36,7 @@ public class ConsoleLogger implements Runnable {
      * by duplicating the console channel and deleted the old one.
      */
     public static void clear() {
+        if(!enabled) return;
         TextChannel oldChannel = Configuration.INSTANCE.getConsoleChannel();
         ChannelAction newChannel = oldChannel.createCopy();
         oldChannel.delete().queue();
@@ -46,6 +49,7 @@ public class ConsoleLogger implements Runnable {
      * @return the ConsoleLogger instance.
      */
     public static void send(String message) {
+        if(!enabled) return;
         // TODO add sent checker to stop a message trying to send before the last message has successfully sent.
         OffsetDateTime time = OffsetDateTime.now();
         String formatted = time.format(DateTimeFormatter.ofPattern("dd/MM/yyyy @ hh:mm:ss a"));
@@ -57,6 +61,7 @@ public class ConsoleLogger implements Runnable {
     }
 
     public static void input(String message) {
+        if(!enabled) return;
         Configuration.INSTANCE
                 .getConsoleChannel()
                 .sendMessage("``> " + message + "``")
@@ -65,6 +70,7 @@ public class ConsoleLogger implements Runnable {
     }
 
     public static void print(String message) {
+        if(!enabled) return;
         Configuration.INSTANCE
                 .getConsoleChannel()
                 .sendMessage("``" + message + "``")
@@ -73,16 +79,18 @@ public class ConsoleLogger implements Runnable {
     }
 
     public static void execute(String message) {
+        if(!enabled) return;
         if(message.toLowerCase().startsWith("print ")) {
             print(message.replaceAll("print", ""));
         }
     }
 
     public static void error(Exception exception) {
+        if(!enabled) return;
         EmbedBuilder builder = new EmbedBuilder()
                 .setColor(0xf44444)
                 .setTitle(exception.getClass().getName())
-                .setDescription("**StackTrace:** ```" + Arrays.toString(exception.getStackTrace()).replaceAll(",", "") + "```")
+                .setDescription("**StackTrace:** ```" + Arrays.toString(exception.getStackTrace()).replaceAll(",", "").substring(0, 2000) + "```")
                 .setFooter("This event has been logged");
         channel.sendMessage(builder.build()).queue(success -> sent.set(true));
         await();
@@ -93,6 +101,7 @@ public class ConsoleLogger implements Runnable {
     }
 
     public static void log(String message) {
+        if(!enabled) return;
         OffsetDateTime time = OffsetDateTime.now();
         String formatted = time.format(DateTimeFormatter.ofPattern("dd/MM/yyyy @ hh:mm:ss a"));
         System.out.println("[" + Thread.currentThread().getName() + "]" + " [" + formatted + "] " + message);
@@ -103,6 +112,7 @@ public class ConsoleLogger implements Runnable {
      * Freezes the thread until the message has been sent successfully.
      */
     public static void await() {
+        if(!enabled) return;
         // Loop until the message is sent
         while (!sent.get());
         // Assign the value false to sent to be ready for the next message

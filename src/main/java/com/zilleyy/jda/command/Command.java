@@ -1,6 +1,8 @@
 package com.zilleyy.jda.command;
 
 import lombok.Getter;
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.entities.MessageEmbed;
 
 /**
  * Author: Zilleyy
@@ -35,5 +37,17 @@ public abstract class Command {
      * @return true if the command executed successfully or false if not.
      */
     public abstract ExecutionStatus onCommand(CommandInformation information);
+
+    /**
+     * Must override this method otherwise error will be unhandled.
+     * @param information the information related to the executed command.
+     */
+    public void onError(CommandInformation information, ExecutionStatus status) {
+        MessageEmbed embed = new EmbedBuilder().setTitle("Error")
+                .setDescription("An unhandled negative ExecutionStatus was returned, this event has been logged.")
+                .addField("Trace", status + " -> " + status.getParentStatus() + " -> " + status.getBaseStatus(), false)
+                .build();
+        information.getMessage().reply(embed).queue();
+    }
 
 }

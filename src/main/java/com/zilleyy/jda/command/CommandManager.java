@@ -56,6 +56,12 @@ public class CommandManager {
         }
     }
 
+    public static void handle(Message message, ExecutionStatus status) {
+        Command command = getCommand(message);
+        if(command == null) return;
+        else command.onError(compileCommandInformation(message), status);
+    }
+
     private static CommandInformation compileCommandInformation(Message message) {
         return new CommandInformation(message);
     }

@@ -3,8 +3,9 @@ package com.zilleyy.jda;
 import com.zilleyy.jda.bridge.RequestHandler;
 import com.zilleyy.jda.console.ConsoleListener;
 import com.zilleyy.jda.console.ConsoleLogger;
+import com.zilleyy.jda.listener.GeneralListener;
 import com.zilleyy.jda.listener.MessageListener;
-import com.zilleyy.jda.task.MessageSenderTask;
+import com.zilleyy.jda.listener.ReactionListener;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import net.dv8tion.jda.api.JDA;
@@ -48,7 +49,7 @@ public class Engine {
     private void init() {
         new RequestHandler().start();
 
-        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.9sgANxN9tXVlyIn9_sX9TPPuIXc"));
+        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.Nti6-uWcjzoJPnoh4XUS1KoH4AY"));
         this.jda.getPresence().setActivity(Activity.watching("Messages in channels"));
         this.jda.awaitReady();
 
@@ -58,7 +59,7 @@ public class Engine {
             task.onSuccess(success -> log(success.toString()));
         });
 
-        new MessageSenderTask().start();
+        //new MessageSenderTask().start();
     }
 
     public void stop() {
@@ -84,7 +85,9 @@ public class Engine {
     private ListenerAdapter[] instantiateListeners() throws IllegalAccessException, InstantiationException {
         Class<? extends ListenerAdapter>[] classes = new Class[] {
                 ConsoleListener.class,
-                MessageListener.class
+                MessageListener.class,
+                ReactionListener.class,
+                GeneralListener.class
         };
 
         ListenerAdapter[] instances = new ListenerAdapter[classes.length];
