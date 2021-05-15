@@ -1,8 +1,6 @@
 package com.zilleyy.jda.listener;
 
 import com.zilleyy.jda.Configuration;
-import com.zilleyy.jda.bridge.ParameterBuilder;
-import com.zilleyy.jda.bridge.RequestQueue;
 import com.zilleyy.jda.command.CommandManager;
 import com.zilleyy.jda.command.ExecutionStatus;
 import com.zilleyy.jda.console.ConsoleLogger;
@@ -30,7 +28,7 @@ public class MessageListener extends ListenerAdapter {
         if(message.getAuthor().isBot()) return;
 
         // Send the message to the RestAPI
-        this.rest(message);
+        // TODO send to app this.rest(message);
 
         // Drop out if the message does not start with the command prefix.
         if(message.getContentRaw().toCharArray()[0] != Configuration.INSTANCE.getPrefix().charAt(0)) return;
@@ -50,10 +48,6 @@ public class MessageListener extends ListenerAdapter {
                 else CommandManager.handle(message, status);
             } else message.reply("You cannot use this command here...");
         } else event.getMessage().reply("Unknown command, type /help.").queue();
-    }
-
-    private void rest(Message message) {
-        RequestQueue.add(new ParameterBuilder("/messages").add("username", message.getAuthor().getName()).add("content", message.getContentRaw().replaceAll("\n", "\n")).add("mid", message.getId()).add("uid", message.getAuthor().getId()).build());
     }
 
 }

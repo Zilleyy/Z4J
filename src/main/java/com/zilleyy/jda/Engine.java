@@ -1,6 +1,5 @@
 package com.zilleyy.jda;
 
-import com.zilleyy.jda.bridge.RequestHandler;
 import com.zilleyy.jda.console.ConsoleListener;
 import com.zilleyy.jda.console.ConsoleLogger;
 import com.zilleyy.jda.listener.GeneralListener;
@@ -11,6 +10,7 @@ import lombok.SneakyThrows;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.requests.GatewayIntent;
@@ -31,6 +31,7 @@ public class Engine {
     @Getter private static Engine instance;
 
     @Getter private JDA jda;
+    @Getter private Guild guild;
 
     private Engine() {
         instance = this;
@@ -47,10 +48,8 @@ public class Engine {
 
     @SneakyThrows
     private void init() {
-        new RequestHandler().start();
-
-        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.Nti6-uWcjzoJPnoh4XUS1KoH4AY"));
-        this.jda.getPresence().setActivity(Activity.watching("Messages in channels"));
+        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.vFS1hPxXXbV27-ZGzo4kaBx59Mw"));
+        this.jda.getPresence().setActivity(Activity.watching("messages in channels"));
         this.jda.awaitReady();
 
         this.jda.getGuilds().forEach(guild -> {
@@ -59,7 +58,9 @@ public class Engine {
             task.onSuccess(success -> log(success.toString()));
         });
 
-        //new MessageSenderTask().start();
+        this.guild = this.jda.getGuilds().get(0);
+
+        new BridgeClient();
     }
 
     public void stop() {

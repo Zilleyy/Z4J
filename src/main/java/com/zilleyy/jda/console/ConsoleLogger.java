@@ -101,11 +101,15 @@ public class ConsoleLogger implements Runnable {
     }
 
     public static void log(String message) {
-        if(!enabled) return;
+        //if(!enabled) return;
         OffsetDateTime time = OffsetDateTime.now();
-        String formatted = time.format(DateTimeFormatter.ofPattern("dd/MM/yyyy @ hh:mm:ss a"));
-        System.out.println("[" + Thread.currentThread().getName() + "]" + " [" + formatted + "] " + message);
+        String formatted = time.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
+        System.out.println("[" + formatted + "] [INFO] " + message);
         sent.set(true);
+    }
+
+    public static void raw(String message) {
+        System.out.println(message);
     }
 
     /**
