@@ -30,7 +30,7 @@ public class Engine {
 
     @Getter private static Engine instance;
 
-    @Getter private JDA jda;
+    @Getter private JDA JDA;
     @Getter private Guild guild;
 
     private Engine() {
@@ -48,23 +48,24 @@ public class Engine {
 
     @SneakyThrows
     private void init() {
-        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.vFS1hPxXXbV27-ZGzo4kaBx59Mw"));
-        this.jda.getPresence().setActivity(Activity.watching("messages in channels"));
-        this.jda.awaitReady();
+        configure(JDABuilder.createDefault("ODI0NDk5NTU2Njc3ODQ1MDMy.YFwRDA.ZmF7spOmAIZ_XPPXc63yyRPaMuA"));
+        this.JDA.getPresence().setActivity(Activity.watching("messages in channels"));
+        this.JDA.awaitReady();
 
-        this.jda.getGuilds().forEach(guild -> {
+        this.JDA.getGuilds().forEach(guild -> {
             Task<List<Member>> task = guild.loadMembers();
             task.onError(error -> error.printStackTrace());
             task.onSuccess(success -> log(success.toString()));
         });
 
-        this.guild = this.jda.getGuilds().get(0);
+        this.guild = this.JDA.getGuilds().get(0);
 
+        new Constant();
         new BridgeClient();
     }
 
     public void stop() {
-        this.jda.shutdown();
+        this.JDA.shutdown();
         ConsoleLogger.send("Shutting down");
         ConsoleLogger.await();
         //System.exit(0);
@@ -80,7 +81,7 @@ public class Engine {
         builder.disableCache(CacheFlag.ACTIVITY)
                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
                 .addEventListeners(this.instantiateListeners());
-        this.jda = builder.build();
+        this.JDA = builder.build();
     }
 
     private ListenerAdapter[] instantiateListeners() throws IllegalAccessException, InstantiationException {

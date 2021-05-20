@@ -29,7 +29,7 @@ public class Configuration {
     }
 
     public TextChannel getConsoleChannel() {
-        return Engine.getInstance().getJda().getTextChannelsByName("console", true).get(0);
+        return Engine.getInstance().getJDA().getTextChannelsByName("console", true).get(0);
     }
 
 }

@@ -129,7 +129,7 @@ public class ConsoleLogger implements Runnable {
 
     @Override
     public void run() {
-        send("JDA successfully logged in as " + Engine.getInstance().getJda().getSelfUser().getAsTag());
+        send("JDA successfully logged in as " + Engine.getInstance().getJDA().getSelfUser().getAsTag());
         await();
     }
 
